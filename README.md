@@ -33,28 +33,29 @@ Make sure you have Python 3.8 or higher installed. Then run each install command
 ```bash
 pip install spotipy
 pip install pandas
-pip install Scikit-learn
+pip install scikit-learn
 pip install imblearn
 ```
 
 ### 3. Configure Spotify API Credentials
 
 1. Visit the [Spotify Developer Dashboard](https://developer.spotify.com/dashboard/).
-2. Create a new app to get your `client_id` and `client_secret`.
-3. Edit the `secrets.py` file (you will create this in the next step) with your Spotify username, `client_id`, `client_secret`, and `redirect_uri`.
+2. Create a new app to get your `clientId` and `clientSecret`.
+3. Edit the `secrets.py` file (you will create this in the next step) with your Spotify username, `clientId`, `clientSecret`, and `redirectUri`.
 
 ```python
 # secrets.py
+clientId = 'your_spotify_client_id'
+clientSecret = 'your_spotify_client_secret'
+redirectUri = 'your_app_redirect_uri'
 username = 'your_spotify_username'
-client_id = 'your_spotify_client_id'
-client_secret = 'your_spotify_client_secret'
-redirect_uri = 'your_app_redirect_uri'
 ```
 
 ### 4. Run the Script
+open 
 
 ```bash
-python main.py
+python initialiseDataset.py
 ```
 
 ## Usage
