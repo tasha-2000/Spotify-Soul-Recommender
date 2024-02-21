@@ -17,7 +17,7 @@ The features of these songs will help the model identify what kind of soulful mu
 - Your Spotify API credentials
 
 ## Setup
-####Please read the whole setup section before you clone the project to avoid errors
+###Please read the whole setup section before you clone the project to avoid errors
 
 ### 1. Clone the Repository
 
