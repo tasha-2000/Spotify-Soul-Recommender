@@ -64,13 +64,13 @@ def Main():
     print(trackIds)
 
     # creates a text file with around 8000 track IDs - this is your soulful song library ( comment out if you've already done this)
-    keywords = {'contemporary', 'r&b', 'lofi', 'soul', 'jazz', 'neo soul', 'blues', 'chillwave', 'lo-fi', 'chill', 'soul'}
-    playlistIds = FindSoulfulPlaylists(sp, keywords)
-    allTrackIds = GetTracksFromPlaylist(sp, playlistIds)
-    with open('track_ids.txt', 'w') as file:
-        for Id in allTrackIds:
-            file.write(Id + '\n')
-    print(f"Total tracks collected: {len(allTrackIds)}")
+    # keywords = {'contemporary', 'r&b', 'lofi', 'soul', 'jazz', 'neo soul', 'blues', 'chillwave', 'lo-fi', 'chill', 'soul'}
+    # playlistIds = FindSoulfulPlaylists(sp, keywords)
+    # allTrackIds = GetTracksFromPlaylist(sp, playlistIds)
+    # with open('track_ids.txt', 'w') as file:
+    #     for Id in allTrackIds:
+    #         file.write(Id + '\n')
+    # print(f"Total tracks collected: {len(allTrackIds)}")
 
 if __name__ == "__main__":
     Main()
