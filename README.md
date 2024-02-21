@@ -51,37 +51,25 @@ redirectUri = 'your_app_redirect_uri'
 username = 'your_spotify_username'
 ```
 
-### 4. Run the Script
-open 
-
-```bash
-python initialiseDataset.py
+### 4. Run the Scripts
+In `initialiseDataset.py`  
+This section of code has been commented out 
+```python
+    # creates a text file with around 8000 track IDs - this is your soulful song library ( comment out if you've already done this)
+    keywords = {'contemporary', 'r&b', 'lofi', 'soul', 'jazz', 'neo soul', 'blues', 'chillwave', 'lo-fi', 'chill', 'soul'}
+    playlistIds = FindSoulfulPlaylists(sp, keywords)
+    allTrackIds = GetTracksFromPlaylist(sp, playlistIds)
+    with open('track_ids.txt', 'w') as file:
+        for Id in allTrackIds:
+            file.write(Id + '\n')
+    print(f"Total tracks collected: {len(allTrackIds)}")
 ```
+This assumes that you'll be using the `reccommended_library.csv` provided for this project. If you want to create your own dataset from stratch you should undo the commenting out.   
 
-## Usage
-
-- The script will start by authenticating your Spotify account using the credentials provided.
-- It will then fetch your top tracks and filter them based on the defined genres.
-- After analyzing your music taste, it will recommend 10 new soulful tracks for you.
-
-## Contributing
-
-Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
-
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-## License
-
-Distributed under the MIT License. See `LICENSE` for more information.
-
-## Contact
-
-Your Name - [@your_twitter](https://twitter.com/your_twitter) - email@example.com
-
-Project Link: [https://github.com/yourusername/spotify-soul-recommender](https://github.com/yourusername/spotify-soul-recommender)
-
-Feel free to adjust the README as necessary to fit your project's needs.
+Run the scripts in this order:
+```bash
+python ./initialiseDataset.py
+python ./getUserFavsFeatures.py
+python ./model.py
+python ./app.py
+```
