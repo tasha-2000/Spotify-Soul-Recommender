@@ -1,13 +1,13 @@
 import spotipy
 from spotipy.oauth2 import SpotifyOAuth
-import secrets_1
+import secrets
 
 # Function to initialize Spotify client
 def InitSpotifyClient():
     scope = 'user-top-read playlist-modify-private playlist-modify-public user-library-read'
-    sp = spotipy.Spotify(auth_manager=SpotifyOAuth(client_id=secrets_1.clientId,
-                                                   client_secret=secrets_1.clientSecret,
-                                                   redirect_uri=secrets_1.redirectUri,
+    sp = spotipy.Spotify(auth_manager=SpotifyOAuth(client_id=secrets.clientId,
+                                                   client_secret=secrets.clientSecret,
+                                                   redirect_uri=secrets.redirectUri,
                                                    scope=scope))
     return sp
 
