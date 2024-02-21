@@ -1,15 +1,15 @@
 import spotipy
 from spotipy.oauth2 import SpotifyOAuth
-import credentials
+import secrets
 import pandas as pd
 import time
 
 # Function to set up the Spotify client
 def SetUpSpotifyClient():
     scope = 'user-top-read playlist-modify-private playlist-modify-public user-library-read user-top-read'
-    token = SpotifyOAuth(client_id=credentials.clientId,
-                         client_secret=credentials.clientSecret,
-                         redirect_uri=credentials.redirectUri,
+    token = SpotifyOAuth(client_id=secrets.clientId,
+                         client_secret=secrets.clientSecret,
+                         redirect_uri=secrets.redirectUri,
                          scope=scope)
     if token:
         sp = spotipy.Spotify(auth_manager=token)
