@@ -10,7 +10,6 @@ The features of these songs will help the model identify what kind of soulful mu
 
 
 ## Requirements
-
 - Python 3.8+
 - Spotipy
 - Pandas
@@ -18,6 +17,7 @@ The features of these songs will help the model identify what kind of soulful mu
 - Your Spotify API credentials
 
 ## Setup
+Please read the whole setup section before you clone the project to avoid errors
 
 ### 1. Clone the Repository
 
@@ -52,19 +52,7 @@ username = 'your_spotify_username'
 ```
 
 ### 4. Run the Scripts
-In `initialiseDataset.py`  
-This section of code has been commented out 
-```python
-    # creates a text file with around 8000 track IDs - this is your soulful song library ( comment out if you've already done this)
-    keywords = {'contemporary', 'r&b', 'lofi', 'soul', 'jazz', 'neo soul', 'blues', 'chillwave', 'lo-fi', 'chill', 'soul'}
-    playlistIds = FindSoulfulPlaylists(sp, keywords)
-    allTrackIds = GetTracksFromPlaylist(sp, playlistIds)
-    with open('track_ids.txt', 'w') as file:
-        for Id in allTrackIds:
-            file.write(Id + '\n')
-    print(f"Total tracks collected: {len(allTrackIds)}")
-```
-This assumes that you'll be using the `reccommended_library.csv` provided for this project. If you want to create your own dataset from stratch you should undo the commenting out.   
+This assumes that you'll be using the `reccommended_library.csv` provided for this project. 
 
 Run the scripts in this order:
 ```bash
@@ -73,3 +61,9 @@ python ./getUserFavsFeatures.py
 python ./model.py
 python ./app.py
 ```
+If you want to create your own dataset from stratch you should undo the commenting out in the main function of the `intitialiseDataSet.py` and then run getFeatures.py after running `getUserFavsFeatures.py`
+WARNING:
+You may encounter multiple rate limit errors from the Spotify Client. If this happens wait around 24 hours before running `getFeatures.py` again.
+`getFeatures.py` keeps track of where it last stopped before the error so it will pick up from where it left off. 
+`getFeatures.py` has also implemented a wait time of around 30 seconds between processing each batch of track IDs.
+track IDs are processed in batches of 100.  
