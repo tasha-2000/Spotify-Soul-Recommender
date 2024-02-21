@@ -4,6 +4,7 @@ import secrets
 import pandas as pd
 import time
 
+#OPTIONAL: Only run this script if you are creating your own 7000+ song dataset from scratch
 # Function to set up the Spotify client
 def SetUpSpotifyClient():
     scope = 'user-top-read playlist-modify-private playlist-modify-public user-library-read user-top-read'
