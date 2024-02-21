@@ -62,7 +62,7 @@ python ./model.py
 python ./app.py
 ```
 If you want to create your own dataset from stratch you should undo the commenting out in the main function of the `intitialiseDataSet.py` and then run getFeatures.py after running `getUserFavsFeatures.py`
-WARNING:
+### WARNING:
 You may encounter multiple rate limit errors from the Spotify Client. If this happens wait around 24 hours before running `getFeatures.py` again.
 `getFeatures.py` keeps track of where it last stopped before the error so it will pick up from where it left off. 
 `getFeatures.py` has also implemented a wait time of around 30 seconds between processing each batch of track IDs.
