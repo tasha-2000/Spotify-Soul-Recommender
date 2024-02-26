@@ -1,4 +1,4 @@
-track_id,name,album,artist,release_date,length,popularity,danceability,acousticness,energy,instrumentalness,liveness,loudness,speechiness,tempo,time_signature
+trackId,name,album,artist,releaseDate,length,popularity,acousticness,danceability,energy,instrumentalness,liveness,loudness,speechiness,tempo,timeSignature
 35cVkyTqIGkwpg7OhIl5TE,candy reign (!),candy reign (!),Jim Legxacy,2022-08-03,138000,20,0.607,0.511,0.444,9.58e-05,0.15,-8.406,0.288,199.626,4
 1Fav4xZn60uGM3XmiHJmvT,One Of Your Girls,Something To Give Each Other,Troye Sivan,2023-10-13,181481,76,0.637,0.0926,0.639,0.00503,0.223,-7.832,0.0542,92.987,4
 4iZ4pt7kvcaH6Yo8UoZ4s2,Snooze,SOS,SZA,2022-12-09,201800,93,0.559,0.141,0.551,0.0,0.11,-7.231,0.132,143.008,4
@@ -8,7 +8,7 @@ track_id,name,album,artist,release_date,length,popularity,danceability,acousticn
 4WghJOMjDpGdlk3b8aJIgy,up at night (feat. justin bieber),up at night (feat. justin bieber),Kehlani,2022-03-30,182226,62,0.563,0.196,0.756,0.0,0.245,-3.852,0.0579,100.012,4
 5HphhcOuLFWBj9IghbrKJB,Midnight River (feat. 6LACK),Midnight River (feat. 6LACK),Pink Sweat$,2021-12-10,184242,53,0.497,0.777,0.351,0.0,0.157,-9.048,0.0648,171.719,4
 2MAEd35YAuGXXCifA2M1Wz,Eye Tell (!),Eye Tell (!),Jim Legxacy,2022-03-31,130692,46,0.713,0.257,0.644,0.0,0.693,-9.636,0.393,121.129,4
-7k0wVBW3cvV6Xmb87JikIf,Last Call,Last Call,Khalid,2022-03-03,191375,61,0.553,0.0254,0.727,0.0113,0.107,-6.905,0.0348,173.972,4
+7k0wVBW3cvV6Xmb87JikIf,Last Call,Last Call,Khalid,2022-03-03,191375,61,0.55cl3,0.0254,0.727,0.0113,0.107,-6.905,0.0348,173.972,4
 0tFRxPQHvAUMTbWYRJUo8R,we're not alike,THINK LATER,Tate McRae,2023-12-08,180392,77,0.707,0.0237,0.811,5.16e-06,0.153,-5.003,0.0338,113.022,4
 0JmnkIqdlnUzPaf8sqBRs3,Moonlight,Red Moon In Venus,Kali Uchis,2023-03-03,187723,86,0.642,0.518,0.706,0.0,0.25,-6.872,0.052,136.851,4
 6hgoYQDUcPyCz7LcTUHKxa,Calm Down,Calm Down,Rema,2022-02-10,219813,77,0.811,0.376,0.781,0.001,0.121,-6.333,0.0428,107.007,4
@@ -148,16 +148,13 @@ track_id,name,album,artist,release_date,length,popularity,danceability,acousticn
 60wOZ1b6EFfnSa4eXyLDwl,Prelude to a Kiss,In the Moonlight,Sophie Milman,2011,275933,0,0.378,0.905,0.205,6.26e-06,0.119,-12.888,0.0296,42.232,3
 2bUK1EW5FPfpNDLO42XKqV,Love Is Here To Stay,Hooray For Love,Curtis Stigers,2014-01-01,259573,50,0.65,0.879,0.138,8.81e-05,0.153,-13.318,0.039,80.699,4
 0R5rHcEKfDpC47txuZrzCc,"Lover Man (Oh, Where Can You Be?)","Lover Man (Oh, Where Can You Be?)",Flora Martínez,2021-08-27,183901,50,0.725,0.956,0.214,6.23e-05,0.164,-12.456,0.0323,105.04,3
-48WTGGIeSFD5ZMF51Rm4Y9,Another Lifetime,Saturn,Nao,2018-10-26,209466,57,0.452,0.415,0.317,1.5e-05,0.184,-9.403,0.0478,59.561,4
 1tNK6PDCrJLEa2AQBCEfjP,More Than Enough,It Was Divine,Alina Baraz,2020-04-24,151462,59,0.648,0.26,0.531,0.000897,0.12,-5.886,0.0345,143.008,4
 2rFPUq8a7gvO0IuaN9LpV7,In Fact (feat. Gabzy),THENIGHTISYOUNG.,melvitto,2019-02-22,225179,69,0.915,0.803,0.321,9.51e-05,0.112,-10.024,0.437,89.956,4
-2mzM4Y0Rnx2BDZqRnhQ5Q6,Free Mind,For Broken Ears,Tems,2020-09-25,247578,77,0.562,0.442,0.463,0.000145,0.157,-7.478,0.0787,125.15,5
 4weUiA7GoG1c49Qhi7L3wo,Mistake,Mistake,Jaz Karis,2021-01-29,186693,33,0.575,0.541,0.324,0.0,0.432,-9.827,0.0396,94.724,4
 6jdTkoEaer7XNGSblczoSu,Mood (feat. BNXN),Made In Lagos: Deluxe Edition,Wizkid,2021-08-27,209760,66,0.897,0.0193,0.7,0.009,0.12,-2.776,0.117,101.944,4
 4RI9eX7jNcdaQOJifn7t6z,Pound Cake / Paris Morton Music 2,Nothing Was The Same (Deluxe),Drake,2013-01-01,433800,67,0.521,0.138,0.762,1.11e-05,0.114,-6.746,0.529,164.09,4
 1JY0oHjgGulg9YULxx8KW7,Bounce,PANDEMIC,Ruger,2021-03-12,184686,57,0.757,0.314,0.709,0.0,0.111,-5.961,0.0928,98.008,4
 29e2gdZN35wxeGgDtkXjIa,Feeling,Feeling,LADIPOE,2021-05-07,224000,59,0.615,0.26,0.575,4.27e-06,0.324,-6.515,0.4,134.791,5
-0MDYvPEc9CFp2vkth6eoOQ,Belong to You,About Time,Sabrina Claudio,2017-10-05,186000,52,0.57,0.272,0.536,0.032,0.34,-10.317,0.0552,152.13,4
 6QqF0MqjQVotftZIuQUbvf,Clutch (feat. Kiana Ledé),Clutch (feat. Kiana Ledé),Col3trane,2020-05-15,206680,50,0.634,0.663,0.564,0.000239,0.111,-7.984,0.359,116.233,5
 7kU3HeAcYkI0zYGlMQY9QG,Broke Me Down,Broke Me Down,Janine,2019-09-27,201233,54,0.528,0.831,0.401,0.00169,0.14,-9.662,0.1,77.43,4
 1eUGmzzvahJjOSWgDHuRlv,Girl With The Tattoo Enter.lewd,All I Want Is You,Miguel,2010-11-26,102813,85,0.372,0.856,0.239,0.000175,0.168,-11.314,0.0296,113.451,4
@@ -175,7 +172,6 @@ track_id,name,album,artist,release_date,length,popularity,danceability,acousticn
 6teW0qt23aGnWhC0rSvtoz,understand,understand,Omah Lay,2021-07-08,174545,55,0.697,0.166,0.653,0.231,0.0911,-7.284,0.102,99.982,4
 4gvrJnKCKIPiacNsWVQwEU,love nwantiti (feat. Dj Yo! & AX'EL) - Remix,love nwantiti (feat. Dj Yo! & AX'EL) [Remix],CKay,2021-09-09,188368,75,0.579,0.436,0.596,0.0938,0.0549,-4.823,0.0561,119.9,3
 3cQmqM0awej9iAESjhKrI9,Confidently Lost,Confidently Lost,Sabrina Claudio,2017-03-02,209885,59,0.666,0.272,0.39,9.39e-06,0.111,-8.575,0.0838,113.866,4
-2xyx0o4xNOLLjBSbOOdcbA,Playing Games (with Bryson Tiller) - Extended Version,Over It,Summer Walker,2019-10-04,143226,81,0.726,0.603,0.408,0.0,0.225,-6.606,0.0614,115.918,4
 4Ieod2ueT9GEEz9ILN84qP,Try Me,Try Me,Tems,2019-08-07,213658,58,0.561,0.701,0.744,4.19e-05,0.153,-5.141,0.414,164.438,4
 1zwZ26A7OA5wTrA3FejCLL,Monalisa,LV N ATTN,Lojay,2021-06-04,213991,65,0.827,0.0813,0.705,0.00556,0.102,-6.756,0.0429,113.006,4
 2HSmyk2qMN8WQjuGhaQgCk,Champagne Poetry,Certified Lover Boy,Drake,2021-09-03,336511,78,0.423,0.758,0.667,0.0,0.246,-7.012,0.326,86.743,4
@@ -294,7 +290,6 @@ track_id,name,album,artist,release_date,length,popularity,danceability,acousticn
 47mqPyiBsnuTTWrLUhdSVt,The Brown Noise Parents,Kids Sleep Better with Brown Noise,Limone M,2022-05-29,208000,64,0.226,0.838,0.253,0.972,0.112,-36.609,0.0543,137.179,3
 2PyV5iL5LG3tKGTL03PeZ6,Good Night Brown Noise,Sleep Fast Brown Noise,Noise Recordings,2023-01-08,124087,63,0.208,0.935,0.12,0.677,0.108,-36.687,0.0529,66.009,4
 3n6Do4bOgibg9HTVpSJ4QI,Brown Noise Ocean,Brown Noise Ocean,Sleepy Parents,2022-04-03,267000,64,0.218,0.816,0.212,0.973,0.111,-36.709,0.0603,139.754,4
-7BUnSvQPU5m830Et7fLAZt,Rider,AZEB - EP,Mereba,2021-05-26,165186,59,0.588,0.793,0.448,0.567,0.0931,-11.497,0.0545,94.701,4
 0GGfGINoVYiSFXPOjg3RHj,Found (feat. Brent Faiyaz),Found (feat. Brent Faiyaz),Tems,2021-09-09,209454,73,0.821,0.625,0.412,1.64e-05,0.0985,-7.795,0.0341,109.977,4
 5XEV3ZFUeXH1un9UhcVTAK,Let Me Down,All Eyes On U,Jaz Karis,2020-07-24,148695,55,0.657,0.0412,0.374,0.176,0.241,-10.9,0.049,183.985,4
 6UOruoEj8UAA9iEtjbjJra,Sweet Blue,Sweet Blue,Cleo Sol,2019-05-31,253527,62,0.596,0.733,0.313,0.0034,0.0653,-14.759,0.056,81.02,4
@@ -305,11 +300,9 @@ track_id,name,album,artist,release_date,length,popularity,danceability,acousticn
 65v99AWZyNz3aRmfrT2I7N,i'm a mess,Boy Alone,Omah Lay,2022-07-14,153946,67,0.682,0.307,0.633,0.0328,0.112,-6.213,0.239,123.259,5
 5Tp4UJvnsF4Zd05k0zXUte,CPR,Last Day Of Summer,Summer Walker,2018-10-19,203240,67,0.693,0.637,0.369,0.00335,0.0951,-12.683,0.175,140.148,4
 4svk9KGtIVSEoeG2VjIUSy,A Storm on a Summers Day,A Storm on a Summers Day,Full Crate,2018-06-07,178355,68,0.726,0.696,0.295,0.000356,0.172,-14.504,0.219,115.067,4
-3GsmYNNiz9GCXgVgphLlyl,Belong to You (feat. 6LACK),About Time (Extended Vinyl Reissue),Sabrina Claudio,2021-05-14,185617,59,0.601,0.273,0.554,0.0145,0.184,-10.849,0.0982,151.971,4
 6ZwNOYjJ06J77YF1ggXtaT,Love Again,Marigold,Alex Isley,2022-03-30,154800,65,0.596,0.814,0.458,0.000125,0.0812,-8.556,0.0677,99.381,4
 49Lbka7DlfHkooF7ZIkQl2,THERAPY,THERAPY,Jaz Karis,2023-04-13,126857,52,0.577,0.632,0.48,0.0,0.117,-8.109,0.348,139.31,5
 5Bngj85IUf1HrAWGhMAwRn,Interference,For Broken Ears,Tems,2020-09-25,175238,59,0.614,0.938,0.0908,0.0,0.323,-13.388,0.0503,126.217,4
-1CbxG199T0fzfUV5EO7aPV,Eternal Light,Free Nationals,Free Nationals,2019-12-13,193740,69,0.793,0.648,0.465,0.000132,0.0871,-8.134,0.271,141.85,4
 2YIIDMcF9zWJ2xcFSA99lH,Charge It,We Go Again,ENNY,2023-04-13,185715,68,0.783,0.347,0.542,0.593,0.201,-6.793,0.114,127.047,4
 2BfxLAYgetcxiyXJA7ItoF,If You Let Me,Sunbeam,Alina Baraz,2021-09-24,135346,67,0.604,0.556,0.683,0.449,0.147,-8.612,0.0434,138.078,4
 6QpZXzHcOgXK41Y3YCx203,Little Lies,Analogue,ODIE,2018-04-06,220007,63,0.342,0.592,0.294,0.674,0.0944,-15.989,0.0426,84.014,4
@@ -320,7 +313,6 @@ track_id,name,album,artist,release_date,length,popularity,danceability,acousticn
 17LTtoUO3vJjPYYIzF5cCp,Carry-on,Departure,Akira Ræ,2022-10-12,133999,42,0.735,0.613,0.45,0.00208,0.128,-10.005,0.204,128.788,4
 3W2nknW1nTuuxUSyFCUCS8,John Redcorn,Chasing Summer,SiR,2019-08-30,187893,69,0.734,0.226,0.435,0.00277,0.216,-6.126,0.0869,143.967,4
 7iwn9FANtRltiafratcH07,Flight 99,Flight 99,Ta-ku,2019-11-15,167142,64,0.589,0.554,0.431,0.0317,0.0878,-10.096,0.0475,134.688,4
-48WTGGIeSFD5ZMF51Rm4Y9,Another Lifetime,Saturn,Nao,2018-10-26,209466,57,0.452,0.415,0.317,1.5e-05,0.184,-9.403,0.0478,59.561,4
 3QSYCQV3OTXXn4AKoWVyZ5,Bleeding,Imperfect,Ogranya,2020-03-27,162741,38,0.728,0.893,0.395,0.00481,0.101,-11.273,0.883,94.744,4
 1ciQU7ZQGHq129m3njp9en,dirty dancer,dirty dancer,Orion Sun,2022-02-08,169720,70,0.702,0.376,0.525,0.0667,0.119,-5.028,0.0313,113.856,4
 1tNK6PDCrJLEa2AQBCEfjP,More Than Enough,It Was Divine,Alina Baraz,2020-04-24,151462,59,0.648,0.26,0.531,0.000897,0.12,-5.886,0.0345,143.008,4
@@ -330,7 +322,6 @@ track_id,name,album,artist,release_date,length,popularity,danceability,acousticn
 0Lf2PlT8IPAaWc59a2fWU6,For James,The Celestial Suite,Pale Jay,2021-10-22,83046,69,0.253,0.22,0.674,0.734,0.0986,-6.929,0.0331,81.871,4
 6mDz3yFi4hJeL2mP4lmg51,"Collide - From ""Queen & Slim: The Soundtrack""",Back At Sixes And Sevens,Tiana Major9,2020-12-18,204453,53,0.497,0.257,0.568,0.0016,0.523,-8.104,0.0705,147.391,4
 6tDTnxaq8fHXZ63uiseNRH,As You Are - A COLORS SHOW,As You Are - A COLORS SHOW,Bellah,2023-08-31,221493,52,0.628,0.343,0.484,8.62e-06,0.297,-8.336,0.0396,113.842,4
-0ruXlI2lrBoSApcBbjtRE4,Once-Upon-A-Time,Romance Me,Jamilah Barry,2020-11-20,164788,46,0.58,0.376,0.489,4.35e-05,0.0761,-6.728,0.0836,71.174,4
 7j2yyYzzdSfvd1L1MwMM8V,Idea 683,"Ideas, Vol. 2",Jayla Darden,2018-08-24,124825,62,0.76,0.234,0.569,0.0162,0.104,-8.76,0.103,77.993,4
 36tR7kGlYwgi9IWpuUSbp1,Still,The Transition of Mali,Mali Music,2017-06-02,290240,41,0.327,0.466,0.391,0.0,0.187,-7.353,0.0385,140.733,3
 7m0tBD3JC20Czvrg4zzR4u,Butterfly,Rose in the Dark,Cleo Sol,2020-03-27,199600,52,0.598,0.866,0.26,0.0,0.168,-9.406,0.0762,81.107,4
@@ -341,7 +332,6 @@ track_id,name,album,artist,release_date,length,popularity,danceability,acousticn
 0deHsjyrgcKGMZzIuvawq3,Dreams,When I Get Home,Solange,2019-03-01,148253,56,0.661,0.827,0.368,0.249,0.111,-7.342,0.0727,112.891,4
 3CvplxSl3Mj1rNlw4IaBr2,Bolero,Bicoastal,Bathe,2021-10-15,205133,48,0.734,0.644,0.473,0.0164,0.0998,-10.107,0.0424,107.454,4
 6HL0T1bwbyx7dWK3eLrXpz,Think About You - Notion Mix,Back At Sixes And Sevens,Tiana Major9,2020-12-18,195186,44,0.765,0.00709,0.6,4.13e-05,0.084,-6.56,0.143,86.733,4
-3w2PO4US2zMxFDxEjWT9yB,Be Easy,Be Easy,Odeal,2023-05-26,132052,68,0.822,0.0874,0.488,0.0,0.154,-9.24,0.643,123.893,4
 0wOtc2nY3NOohp4xSwOyTN,We Might Even Be Falling In Love (Duet) - Spotify Singles,We Might Even Be Falling In Love (Duet) - Spotify Singles,Victoria Monét,2023-02-14,90110,74,0.731,0.473,0.423,0.000413,0.129,-10.147,0.0784,76.964,4
 64TJKMfx0QxpuR7rTXL05c,Treasure In The Hills,Electric Dusk,Leon Thomas,2023-08-18,189202,65,0.693,0.0155,0.503,0.00153,0.133,-3.647,0.0279,76.119,3
 3iltRlox3jEeSKuqdW88EK,Going Up The Country,On The Road Again,Canned Heat,1989-01-01,172866,66,0.622,0.859,0.239,0.051,0.109,-18.982,0.0447,79.674,4
@@ -844,10 +834,8 @@ track_id,name,album,artist,release_date,length,popularity,danceability,acousticn
 6EECRcDjI5034NQestBztm,Lily Apart,Peace + Harmony,[ K S R ],2021-12-10,167044,19,0.622,0.685,0.438,0.000327,0.129,-11.448,0.147,119.841,4
 1hb5zeeR0SchsLSIPrphL8,STAY UP,STAY UP / SWEET,Stevedreez,2021-05-14,229765,44,0.803,0.000592,0.319,0.0154,0.103,-10.736,0.154,110.007,4
 1iJwihRpjyrLH9BzqlT1qt,Give A Little - Blue Lab Beats Remix,Honey For Wounds (Deluxe Edition),Ego Ella May,2021-06-25,197872,29,0.645,0.0196,0.583,6.68e-06,0.078,-7.014,0.0527,93.873,4
-1CbxG199T0fzfUV5EO7aPV,Eternal Light,Free Nationals,Free Nationals,2019-12-13,193740,69,0.793,0.648,0.465,0.000132,0.0871,-8.134,0.271,141.85,4
 1cHBuQf2xa55GghN4eBp1H,SIDE OF YOU,SIDE OF YOU,Jaz Karis,2022-09-23,165980,58,0.647,0.558,0.515,0.000243,0.111,-7.27,0.127,86.804,4
 3LfHBTYZBTqmz43tvVXJBd,Deep,Last Day Of Summer,Summer Walker,2018-10-19,92093,81,0.646,0.626,0.335,1.3e-05,0.107,-9.915,0.247,167.927,4
-7BUnSvQPU5m830Et7fLAZt,Rider,AZEB - EP,Mereba,2021-05-26,165186,59,0.588,0.793,0.448,0.567,0.0931,-11.497,0.0545,94.701,4
 0GGfGINoVYiSFXPOjg3RHj,Found (feat. Brent Faiyaz),Found (feat. Brent Faiyaz),Tems,2021-09-09,209454,73,0.821,0.625,0.412,1.64e-05,0.0985,-7.795,0.0341,109.977,4
 23CKxEwKWsLs6LD5poGOLM,Over,Candydrip,Lucky Daye,2022-03-10,207413,72,0.65,0.502,0.555,0.0,0.104,-5.971,0.0719,103.081,4
 7iwn9FANtRltiafratcH07,Flight 99,Flight 99,Ta-ku,2019-11-15,167142,64,0.589,0.554,0.431,0.0317,0.0878,-10.096,0.0475,134.688,4
@@ -867,7 +855,6 @@ track_id,name,album,artist,release_date,length,popularity,danceability,acousticn
 2BfxLAYgetcxiyXJA7ItoF,If You Let Me,Sunbeam,Alina Baraz,2021-09-24,135346,67,0.604,0.556,0.683,0.449,0.147,-8.612,0.0434,138.078,4
 0ed7g01Suk6ITt0vwT2BgD,Yebo/Sema,Studying Abroad: Extended Stay,Masego,2020-11-13,228463,53,0.878,0.397,0.668,0.008,0.095,-6.455,0.0745,118.068,4
 0wOtc2nY3NOohp4xSwOyTN,We Might Even Be Falling In Love (Duet) - Spotify Singles,We Might Even Be Falling In Love (Duet) - Spotify Singles,Victoria Monét,2023-02-14,90110,74,0.731,0.473,0.423,0.000413,0.129,-10.147,0.0784,76.964,4
-0ruXlI2lrBoSApcBbjtRE4,Once-Upon-A-Time,Romance Me,Jamilah Barry,2020-11-20,164788,46,0.58,0.376,0.489,4.35e-05,0.0761,-6.728,0.0836,71.174,4
 1ppL3Tjizx9C6Vhd1TiIW0,Velvet Blue,Pairing Mode,Ray Lozano,2023-03-03,64410,65,0.546,0.816,0.249,0.00733,0.0678,-12.787,0.22,135.579,5
 6RQ0i7rApnnWSI8uEiGVVF,Why Don't You,Rose in the Dark,Cleo Sol,2020-03-27,228990,70,0.43,0.136,0.592,0.0905,0.112,-7.55,0.15,54.585,4
 6NblUCwJXYkQlQ6LhcmSlQ,Ooh Nah Nah (feat. Masego),Ooh Nah Nah (feat. Masego),SiR,2017-01-23,240000,65,0.85,0.052,0.273,2.22e-06,0.104,-11.567,0.278,116.894,4
@@ -1199,7 +1186,6 @@ track_id,name,album,artist,release_date,length,popularity,danceability,acousticn
 6pyM30WDpG70VTfwoQg4m2,everything,blue water road,Kehlani,2022-04-29,207551,64,0.388,0.851,0.448,0.0,0.302,-5.221,0.0341,142.342,5
 6UOruoEj8UAA9iEtjbjJra,Sweet Blue,Sweet Blue,Cleo Sol,2019-05-31,253527,62,0.596,0.733,0.313,0.0034,0.0653,-14.759,0.056,81.02,4
 6Ap0yGl178iQGuMoXUloVP,Silver Tongue Devil,Studying Abroad: Extended Stay,Masego,2020-11-13,195714,54,0.791,0.469,0.662,0.000222,0.206,-8.492,0.0735,101.996,4
-48WTGGIeSFD5ZMF51Rm4Y9,Another Lifetime,Saturn,Nao,2018-10-26,209466,57,0.452,0.415,0.317,1.5e-05,0.184,-9.403,0.0478,59.561,4
 6ARYP4KyGydosXyxtzlDdc,Waiting For You (feat. Naomi Sharon),Good People,Majid Jordan,2023-11-03,219998,59,0.744,0.59,0.572,0.01,0.105,-5.198,0.0387,81.97,4
 2YIIDMcF9zWJ2xcFSA99lH,Charge It,We Go Again,ENNY,2023-04-13,185715,68,0.783,0.347,0.542,0.593,0.201,-6.793,0.114,127.047,4
 4G1qRhOk1YY0kewtMaCrMC,Rain,Release Some Tension,SWV,1997-07-29,264506,67,0.643,0.337,0.486,3.86e-06,0.702,-10.443,0.0278,138.151,3
@@ -1207,7 +1193,6 @@ track_id,name,album,artist,release_date,length,popularity,danceability,acousticn
 4joC6YCuIUDdBBAY2rCBGi,JEANS (with Miguel),JEANS,Jessie Reyez,2023-08-18,195186,66,0.731,0.226,0.578,9.08e-06,0.0883,-4.797,0.0583,92.904,3
 6NblUCwJXYkQlQ6LhcmSlQ,Ooh Nah Nah (feat. Masego),Ooh Nah Nah (feat. Masego),SiR,2017-01-23,240000,65,0.85,0.052,0.273,2.22e-06,0.104,-11.567,0.278,116.894,4
 5Bngj85IUf1HrAWGhMAwRn,Interference,For Broken Ears,Tems,2020-09-25,175238,59,0.614,0.938,0.0908,0.0,0.323,-13.388,0.0503,126.217,4
-7BUnSvQPU5m830Et7fLAZt,Rider,AZEB - EP,Mereba,2021-05-26,165186,59,0.588,0.793,0.448,0.567,0.0931,-11.497,0.0545,94.701,4
 7m0tBD3JC20Czvrg4zzR4u,Butterfly,Rose in the Dark,Cleo Sol,2020-03-27,199600,52,0.598,0.866,0.26,0.0,0.168,-9.406,0.0762,81.107,4
 6zWU7YALeEDMcPGhKKZJhV,Navajo,Navajo,Masego,2017-06-08,194157,76,0.567,0.117,0.593,1.32e-06,0.248,-7.404,0.288,88.545,4
 6HL0T1bwbyx7dWK3eLrXpz,Think About You - Notion Mix,Back At Sixes And Sevens,Tiana Major9,2020-12-18,195186,44,0.765,0.00709,0.6,4.13e-05,0.084,-6.56,0.143,86.733,4
@@ -1400,7 +1385,6 @@ track_id,name,album,artist,release_date,length,popularity,danceability,acousticn
 2QsZVnbWVSjKMXK6K3uRBL,U Remind Me,8701,USHER,2001-08-07,266893,77,0.657,0.194,0.629,0.0,0.254,-4.938,0.0782,93.985,4
 5rgrBsAFYMun6yhtnLKRPz,Right My Wrongs,T R A P S O U L,Bryson Tiller,2015-10-02,249320,82,0.543,0.345,0.449,0.0,0.157,-8.065,0.0463,132.609,4
 5oady7OSE7dH7LHiqmb3Cr,"Dreams, Fairytales, Fantasies (feat. Brent Faiyaz & Salaam Remi)",Floor Seats,A$AP Ferg,2019-08-16,222986,79,0.737,0.292,0.597,0.0,0.13,-7.333,0.119,92.049,4
-08XWh5c0BMyD1nKVxxl91z,Fountains (with Tems),Certified Lover Boy,Drake,2021-09-03,192417,74,0.843,0.181,0.485,0.0675,0.107,-8.735,0.195,100.053,4
 0LcsvJQSFIQo3RjNhPcYqT,Luv Is Dro (feat. Static Major & Bryson Tiller),Thats What They All Say,Jack Harlow,2020-12-11,177190,66,0.727,0.0335,0.513,0.0,0.302,-8.823,0.0524,76.211,4
 2uwnP6tZVVmTovzX5ELooy,Power Trip (feat. Miguel),Born Sinner (Deluxe Version),J. Cole,2013-06-18,241160,84,0.667,0.324,0.608,0.000198,0.426,-7.054,0.216,99.992,4
 3MAgQuClHcAV8E9CbeBS6f,Lotus Flower Bomb (feat. Miguel),Ambition,Wale,2011-10-28,213253,71,0.512,0.611,0.598,0.0,0.0881,-4.959,0.115,70.189,4
@@ -1409,7 +1393,6 @@ track_id,name,album,artist,release_date,length,popularity,danceability,acousticn
 1DMYEiuAgz1OKvANXiNFrN,Recognize (feat. Drake),PARTYNEXTDOOR TWO,PARTYNEXTDOOR,2014-07-29,311197,76,0.644,0.0102,0.541,0.0,0.102,-5.801,0.0426,119.513,4
 3A4cpTBPaIQdtPFb5JxtaX,Slow Jamz,The College Dropout,Kanye West,2004-02-10,316053,77,0.559,0.314,0.733,0.0,0.284,-5.659,0.171,145.115,4
 15EPc80XuFrb2LmOzGjuRg,Crew (feat. Brent Faiyaz & Shy Glizzy),At What Cost,GoldLink,2017-03-24,176702,80,0.728,0.133,0.607,0.0,0.0864,-8.417,0.132,129.938,4
-2SSyJ6hTS0JeHTg63wVDZ7,Next To You,A N N I V E R S A R Y,Bryson Tiller,2020-10-02,190144,71,0.639,0.0375,0.439,3.56e-06,0.0699,-8.425,0.0601,141.408,4
 4XJRpBOG0bU3Nxnvam3FnC,LOVE YOU BETTER,I NEVER LIKED YOU,Future,2022-04-29,129479,74,0.709,0.478,0.357,0.000294,0.112,-9.289,0.214,75.494,4
 24FUBxaAYSBlWsbSnEzDcn,Members Only (feat. PARTYNEXTDOOR),For All The Dogs,Drake,2023-10-06,277720,75,0.647,0.245,0.34,0.0,0.107,-8.795,0.0496,91.998,4
 4at3d5QWnlibMVN75ECDrp,Pretty Little Fears (feat. J. Cole),East Atlanta Love Letter,6LACK,2018-09-14,240341,76,0.61,0.696,0.458,0.000103,0.0852,-11.336,0.36,192.099,4
@@ -1442,7 +1425,6 @@ track_id,name,album,artist,release_date,length,popularity,danceability,acousticn
 02rdXe0KhMe8p6ZHzYtuw0,lost souls (with Brent Faiyaz),The Melodic Blue,Baby Keem,2021-09-22,269727,74,0.649,0.485,0.347,3.24e-05,0.154,-7.67,0.404,169.994,4
 1dDy8IYSA4NH8JtpGLhcMb,Power Of A Woman,Heart On My Sleeve,Ella Mai,2022-05-06,213853,45,0.628,0.195,0.468,0.0,0.284,-6.784,0.0587,144.841,4
 4AE7Lj39VnSZNOmGH2iZaq,Do For Love,R U Still Down? [Remember Me],2Pac,1997-01-01,281600,78,0.874,0.0578,0.63,0.00479,0.0582,-3.585,0.298,95.0,4
-16bHRxM89ue0TiCKARYbRp,Sorry Not Sorry,T R A P S O U L,Bryson Tiller,2015-10-02,200760,68,0.681,0.0477,0.608,0.0,0.225,-6.093,0.207,97.934,4
 6pWgbMjnWk0kaOW6VK7qVQ,H.E.R.//Are You Dumb,PLAYBOY,Tory Lanez,2021-03-05,195040,63,0.585,0.512,0.593,0.0,0.237,-9.0,0.552,120.209,4
 6RiF8SC99TQlhS1HkdM7sF,Paces,Girl with Fish,feeble little horse,2023-06-09,164505,51,0.548,0.624,0.626,4.42e-05,0.0945,-8.318,0.0401,118.115,4
 08PgEBgGK65DZpxudS1J73,my little tony,The Twits,bar italia,2023-11-03,179562,51,0.414,0.0395,0.95,5.77e-06,0.272,-1.808,0.0657,119.058,4
@@ -1895,7 +1877,6 @@ track_id,name,album,artist,release_date,length,popularity,danceability,acousticn
 3HMJk1q9EfFSvvDPxqhAte,Whistling Alex Moore's Blues,From North Dallas to the East Side,Alex Moore,1994-01-01,187160,22,0.504,0.966,0.456,0.69,0.129,-10.825,0.035,123.7,4
 6EK73RgpCsoGYv4MkUD38d,One For The Highway,Classified (Remixed & Expanded Edition),James Booker,2013-01-01,154400,32,0.715,0.865,0.541,1.01e-05,0.203,-8.936,0.0415,114.585,4
 0VdGCLMuvGP8Q7ceTHmMyy,COMING THRU,COMING THRU,Jamilah Barry,2021-05-21,133500,57,0.538,0.523,0.646,1.69e-05,0.113,-4.995,0.323,160.222,4
-2ktg2oZDyFAX3iY1QNkXl5,Session 32,Session 32,Summer Walker,2018-04-05,98026,79,0.574,0.894,0.123,0.00111,0.118,-13.959,0.196,115.431,3
 2J6OF7CkpdQGSfm1wdclqn,Clouded,Fuck The World,Brent Faiyaz,2020-02-07,110128,86,0.583,0.774,0.344,0.0,0.143,-8.765,0.0559,65.203,3
 5T5b5ZLAUPjtGUTdaH8KLd,If You Let Me,Lessons in Love,Sinéad Harnett,2019-09-20,232490,64,0.487,0.271,0.48,2.09e-06,0.261,-6.005,0.0709,98.766,4
 7h9v6tPZbrlz2tlbObAYr4,Good Love (feat. Tay Iwar),Good Love (feat. Tay Iwar),Tamera,2021-11-04,185133,47,0.634,0.108,0.687,1.32e-06,0.107,-6.699,0.0653,113.12,5
@@ -2194,7 +2175,6 @@ track_id,name,album,artist,release_date,length,popularity,danceability,acousticn
 5cR458T2K00QovnaTO8bSj,Mercy,Mercy,War & Pierce,2021-08-13,220970,34,0.66,0.328,0.508,0.0,0.105,-9.007,0.143,83.997,4
 074GZIq3xxoDd8fH9IGAth,The Man Was Burning,The Man Was Burning,Jake Blount,2022-02-22,155665,42,0.702,0.421,0.519,0.00012,0.168,-7.248,0.181,78.573,4
 5Wj3LM6AppledVJpn9mihn,Call It A Day,Far From Broken,Leon Creek,2021-09-24,223400,33,0.445,0.0289,0.804,3.02e-06,0.371,-6.233,0.0547,200.179,4
-1CbxG199T0fzfUV5EO7aPV,Eternal Light,Free Nationals,Free Nationals,2019-12-13,193740,69,0.793,0.648,0.465,0.000132,0.0871,-8.134,0.271,141.85,4
 6NblUCwJXYkQlQ6LhcmSlQ,Ooh Nah Nah (feat. Masego),Ooh Nah Nah (feat. Masego),SiR,2017-01-23,240000,65,0.85,0.052,0.273,2.22e-06,0.104,-11.567,0.278,116.894,4
 6RQ0i7rApnnWSI8uEiGVVF,Why Don't You,Rose in the Dark,Cleo Sol,2020-03-27,228990,70,0.43,0.136,0.592,0.0905,0.112,-7.55,0.15,54.585,4
 5nV3xjY5nlQwAgpuSeinNG,Someday,Someday,Elmiene,2023-10-19,161529,63,0.728,0.401,0.56,0.000145,0.352,-7.007,0.0387,132.929,4
@@ -2204,7 +2184,6 @@ track_id,name,album,artist,release_date,length,popularity,danceability,acousticn
 1cHBuQf2xa55GghN4eBp1H,SIDE OF YOU,SIDE OF YOU,Jaz Karis,2022-09-23,165980,58,0.647,0.558,0.515,0.000243,0.111,-7.27,0.127,86.804,4
 3ppVO2tyWRRznNmONvt7Se,Summers Over Interlude,Views,Drake,2016-05-06,106333,78,0.699,0.405,0.255,0.00242,0.0985,-8.647,0.0303,132.031,3
 38LSehTOMfWEMpP0e8b3pu,Nothing to Me,"- Ugh, those feels again",Snoh Aalegra,2019-08-16,204480,49,0.744,0.247,0.677,0.0,0.146,-10.248,0.199,173.948,4
-7BUnSvQPU5m830Et7fLAZt,Rider,AZEB - EP,Mereba,2021-05-26,165186,59,0.588,0.793,0.448,0.567,0.0931,-11.497,0.0545,94.701,4
 1V7Hrt7ek8rzl2tn29UgXi,Ambience,Bigger Dreams,Nia Sultana,2022-06-02,168038,50,0.574,0.135,0.541,0.0,0.0822,-8.473,0.351,79.869,4
 0wY9rA9fJkuESyYm9uzVK5,D'Evils,November,SiR,2018-01-19,171818,71,0.784,0.00558,0.586,0.000286,0.106,-3.417,0.187,132.169,4
 6pyM30WDpG70VTfwoQg4m2,everything,blue water road,Kehlani,2022-04-29,207551,64,0.388,0.851,0.448,0.0,0.302,-5.221,0.0341,142.342,5
@@ -2241,10 +2220,8 @@ track_id,name,album,artist,release_date,length,popularity,danceability,acousticn
 4Ebpa8CRiGYyMtqTciqJEi,Home,The Art of Conversation,Bellah,2020-11-20,116000,66,0.452,0.93,0.185,0.000218,0.108,-16.03,0.0717,71.444,3
 3ncmoWTwJgx63LwMTyBCXf,Hrs & Hrs,Public Displays Of Affection: The Album,Muni Long,2022-09-23,204316,76,0.52,0.579,0.546,0.0,0.112,-4.991,0.213,137.419,3
 4S3FRqrM3VyuajD7jFZcLm,Loved By You (feat. Jazmine Sullivan),The Transition of Mali,Mali Music,2017-06-02,258933,47,0.307,0.365,0.481,0.0,0.207,-8.442,0.128,68.894,3
-5hJFhO9dvhJoDvUZZ9iWSw,Adorn,Kaleidoscope Dream (Deluxe Version),Miguel,2012,193146,70,0.625,0.0543,0.576,4.07e-05,0.187,-5.693,0.175,179.063,4
 2BfxLAYgetcxiyXJA7ItoF,If You Let Me,Sunbeam,Alina Baraz,2021-09-24,135346,67,0.604,0.556,0.683,0.449,0.147,-8.612,0.0434,138.078,4
 3oXNIpoUMdk8qGkwCeXqGv,Halfcrazy,Juslisen,Musiq Soulchild,2002-05-07,254493,64,0.412,0.462,0.77,1.5e-06,0.0485,-6.057,0.18,101.955,3
-0WPOxxoEVoglAvhqroDpQA,Where You Belong,"New Me, Same Us",Little Dragon,2020-03-27,207037,61,0.737,0.161,0.436,0.106,0.16,-9.146,0.0555,83.022,4
 1gPeJMO7Az6ZtzHiaKUTWb,Opendoors,Honeycomb,Jitwam,2019-05-03,162102,73,0.725,0.565,0.521,0.275,0.178,-10.248,0.136,114.038,4
 4Tzw9IdZbVyzmpWrvsGaNX,Wildfires,Untitled (Black Is),SAULT,2020-06-19,206947,75,0.862,0.108,0.314,0.156,0.0878,-8.269,0.0369,114.472,4
 44ZKnfWEkp7wPs035j4Tua,Casio,For Ever,Jungle,2018-09-14,234369,72,0.816,0.431,0.492,0.0896,0.0995,-7.464,0.0752,115.989,4
@@ -2395,44 +2372,29 @@ track_id,name,album,artist,release_date,length,popularity,danceability,acousticn
 6L4ZXA6ROpbQCF8UlDqZ9A,Dreemin',Dreemin',_tag,2022-04-27,131641,54,0.744,0.92,0.0474,0.931,0.12,-26.006,0.0341,133.956,4
 4bPJW9pNtuvMujHnbxEN1g,dreamers,dreamers,redknobs,2023-03-12,153000,52,0.632,0.98,0.274,0.864,0.092,-18.533,0.119,79.997,4
 3yu5otkADG1ldufrPxABoo,Wetin,Wetin,Yarden,2022-11-17,78946,72,0.544,0.554,0.583,0.000369,0.0906,-8.548,0.175,182.074,4
-7BUnSvQPU5m830Et7fLAZt,Rider,AZEB - EP,Mereba,2021-05-26,165186,59,0.588,0.793,0.448,0.567,0.0931,-11.497,0.0545,94.701,4
 0UIYPSe1CFICijS61o1NIz,Differently,Differently,DJ Tunez,2020-09-04,180012,44,0.798,0.83,0.412,0.000141,0.108,-7.023,0.355,128.121,5
-1EuIWfKgBys9A7mTAPm968,Coffee (Don't Read Signs),Coffee (Don't Read Signs),Odeal,2022-05-05,161739,66,0.776,0.317,0.656,0.187,0.106,-5.477,0.0797,91.986,4
 0b7YcZJ186TaQZzxrxIO1e,Yanna,Yanna,Chop Daily,2021-07-23,133458,67,0.526,0.285,0.435,0.00253,0.111,-11.847,0.0748,118.209,5
 4204hwPYuToiuSunPFUoML,True Love (feat. Tay Iwar & Projexx),Made In Lagos,Wizkid,2020-10-29,247333,62,0.85,0.229,0.542,4.9e-05,0.079,-3.602,0.167,119.747,5
-1CbxG199T0fzfUV5EO7aPV,Eternal Light,Free Nationals,Free Nationals,2019-12-13,193740,69,0.793,0.648,0.465,0.000132,0.0871,-8.134,0.271,141.85,4
 1tNK6PDCrJLEa2AQBCEfjP,More Than Enough,It Was Divine,Alina Baraz,2020-04-24,151462,59,0.648,0.26,0.531,0.000897,0.12,-5.886,0.0345,143.008,4
 2rFPUq8a7gvO0IuaN9LpV7,In Fact (feat. Gabzy),THENIGHTISYOUNG.,melvitto,2019-02-22,225179,69,0.915,0.803,0.321,9.51e-05,0.112,-10.024,0.437,89.956,4
 1B5I5yqLpVI5EosZS6bJFs,Call Me Every Day (feat. Wizkid),Breezy,Chris Brown,2022-06-23,146840,71,0.73,0.107,0.634,1.44e-05,0.0976,-7.191,0.181,171.874,4
 6qk3jI8bKCgURI3h0d8zBZ,Again,Realms,Wande Coal,2020-09-10,156083,72,0.654,0.688,0.39,0.0,0.106,-9.858,0.36,125.944,5
-3FImu2LpSuH6gDHBuFgIbS,DO 4 LOVE,Spotify Singles,Snoh Aalegra,2021-10-29,189462,70,0.367,0.913,0.142,0.00367,0.107,-12.717,0.0319,69.827,4
 3lMM7eyZ5SeYK1SoZCnmA4,Stay (feat. Gabzy),soon.,melvitto,2017-12-13,247299,67,0.775,0.835,0.274,2.63e-06,0.108,-8.108,0.0415,95.068,4
-47s5hKfwGXliAAB8wKMiNo,When I'm in Your Arms,Rose in the Dark,Cleo Sol,2020-03-27,335310,69,0.596,0.476,0.462,0.0581,0.112,-10.605,0.0589,173.866,4
 3bbZtkmyBJcibe8Xg101ti,I Want U To Myself,I had a dream with you in it,okay coleman!,2021-10-22,156631,39,0.789,0.364,0.264,0.00418,0.0811,-9.73,0.0548,95.078,4
-1Yx1TbWg1zbl6gQ3SCOFCN,DYING 4 YOUR LOVE,TEMPORARY HIGHS IN THE VIOLET SKIES,Snoh Aalegra,2021-07-09,204133,63,0.709,0.289,0.42,0.000196,0.132,-7.643,0.166,152.161,4
 6BiCjPFN5rM9JPy5eP5mCs,RIP Young,The House Is Burning,Isaiah Rashad,2021-07-30,158050,68,0.971,0.0476,0.677,2.22e-05,0.112,-6.895,0.092,120.027,4
-3nXrCAE44KlevAkQB2XWcN,Gonna Love Me,K.T.S.E.,Teyana Taylor,2018-06-23,166997,76,0.514,0.402,0.506,2.56e-05,0.191,-7.095,0.28,88.044,4
-4JOP8ELK6AaeySe7sKe996,Un-thinkable (I'm Ready),The Element Of Freedom,Alicia Keys,2009-12-15,249240,70,0.596,0.732,0.505,1.97e-05,0.106,-7.892,0.0619,86.097,4
-0ruXlI2lrBoSApcBbjtRE4,Once-Upon-A-Time,Romance Me,Jamilah Barry,2020-11-20,164788,46,0.58,0.376,0.489,4.35e-05,0.0761,-6.728,0.0836,71.174,4
-2ktg2oZDyFAX3iY1QNkXl5,Session 32,Session 32,Summer Walker,2018-04-05,98026,79,0.574,0.894,0.123,0.00111,0.118,-13.959,0.196,115.431,3
-3w2PO4US2zMxFDxEjWT9yB,Be Easy,Be Easy,Odeal,2023-05-26,132052,68,0.822,0.0874,0.488,0.0,0.154,-9.24,0.643,123.893,4
 5NtmfJwkA0AXsp2WWHviPn,So My Darling - Acoustic,So My Darling (Acoustic),Rachel Chinouriri,2022-01-14,228922,66,0.568,0.907,0.238,8.21e-06,0.135,-11.111,0.0457,137.958,4
 3W2nknW1nTuuxUSyFCUCS8,John Redcorn,Chasing Summer,SiR,2019-08-30,187893,69,0.734,0.226,0.435,0.00277,0.216,-6.126,0.0869,143.967,4
-56IszkEOG5lFShWevvEH3R,Whipped Cream,Shea Butter Baby,Ari Lennox,2019-05-07,288531,57,0.741,0.568,0.397,0.0,0.153,-9.34,0.035,85.049,4
 0m0FYyIbSDiASOlQ64GDO5,T-Shirt,Shontelligence,Shontelle,2008-01-01,234760,65,0.679,0.0219,0.657,0.0,0.295,-6.222,0.0423,86.984,4
 25Kyv5SeEenT0EETpP2hYn,"Soweto (with Don Toliver, Rema & Tempoe)","Soweto (with Don Toliver, Rema and Tempoe)",Victony,2023-03-22,219500,78,0.719,0.0541,0.756,0.0,0.109,-5.392,0.0761,105.024,4
 0IRTa7DehMM1eyrwx98DJ7,Confujawn (feat. Nija),Confujawn (feat. Nija),Capella Grey,2022-03-18,175329,48,0.47,0.385,0.551,0.0,0.0852,-6.43,0.373,165.84,4
 1JczBx5oXAnPBtmGeW3Aik,"Corte Madera, CA",Spaceships on the Blade,Larry June,2022-08-19,102775,60,0.59,0.245,0.735,0.0,0.274,-6.542,0.402,150.827,4
 02oUEbDQXcVITlLQKMPN1F,Ghostin',Ghostin',Wesley Joseph,2020-07-08,197675,56,0.856,0.346,0.518,0.452,0.221,-10.217,0.192,117.018,4
-6mPJZP9kuOaydnVPxjbxcB,The Key,Beyond Me,Madison Ryann Ward,2019-07-12,196400,55,0.472,0.212,0.413,0.0,0.167,-9.397,0.216,150.529,4
 2VjXGuPVVxyhMgER3Uz2Fe,Ex-Factor,The Miseducation of Lauryn Hill,Ms. Lauryn Hill,1998-08-25,326533,77,0.593,0.118,0.619,0.0,0.484,-9.003,0.0976,80.02,4
 2gjidmxtA1pyj2HYrdOTG1,I Want You Around,"- Ugh, those feels again",Snoh Aalegra,2019-08-16,212787,71,0.705,0.381,0.432,0.133,0.0841,-9.7,0.205,168.005,4
 1VAKnb1btGrQXcVZVSRkPe,Good & Plenty,Good & Plenty,Alex Isley,2020-07-17,204705,68,0.658,0.788,0.619,0.0667,0.0951,-7.316,0.0772,136.077,4
 3rmqNsOiGqqvFNTmGlzl4R,Ta Ta Ta,Bayanni,Bayanni,2022-08-24,159425,73,0.735,0.0661,0.592,0.522,0.125,-11.208,0.0534,104.065,4
-3GsmYNNiz9GCXgVgphLlyl,Belong to You (feat. 6LACK),About Time (Extended Vinyl Reissue),Sabrina Claudio,2021-05-14,185617,59,0.601,0.273,0.554,0.0145,0.184,-10.849,0.0982,151.971,4
 19nOyNRMAuhVWQzPIfig7g,Addicted,All You Need,DJ Tunez,2021-03-23,186923,16,0.806,0.737,0.659,0.000376,0.134,-6.107,0.0475,103.976,4
 0wY9rA9fJkuESyYm9uzVK5,D'Evils,November,SiR,2018-01-19,171818,71,0.784,0.00558,0.586,0.000286,0.106,-3.417,0.187,132.169,4
-0WPOxxoEVoglAvhqroDpQA,Where You Belong,"New Me, Same Us",Little Dragon,2020-03-27,207037,61,0.737,0.161,0.436,0.106,0.16,-9.146,0.0555,83.022,4
 38EhHqsV5NX9JrC2D2qXNI,Whoa,"- Ugh, those feels again",Snoh Aalegra,2019-08-16,199179,66,0.509,0.121,0.514,0.00144,0.104,-11.283,0.123,188.019,4
 2lgz3yy1AyoceOVOOBmiOS,Stickwitu,PCD,The Pussycat Dolls,2005-01-01,207506,73,0.548,0.283,0.554,0.0,0.0708,-6.408,0.0587,79.918,4
 6jpWCR76CzSG6zQKfOCN0B,Anchor,A New Thing,Madison Ryann Ward,2023-04-21,155000,55,0.777,0.582,0.459,0.235,0.0942,-8.778,0.052,75.018,4
@@ -2494,7 +2456,6 @@ track_id,name,album,artist,release_date,length,popularity,danceability,acousticn
 4ufMIn7ee8xlsAePOf22r8,summertime,summertime,$affie,2022-06-17,134506,38,0.744,0.808,0.178,0.89,0.096,-13.225,0.0996,148.26,4
 7AatucCxBhU0DGP0Sed7YA,summerchimes,summerchimes,Archipelia,2023-07-09,156666,37,0.464,0.897,0.152,0.755,0.159,-13.961,0.0482,137.961,4
 2UKmdTfUbFrOacKeS3qkJS,Remedies,Remedies,Illum Noyz,2023-09-22,157000,59,0.87,0.61,0.334,0.958,0.105,-11.023,0.0878,120.135,4
-48WTGGIeSFD5ZMF51Rm4Y9,Another Lifetime,Saturn,Nao,2018-10-26,209466,57,0.452,0.415,0.317,1.5e-05,0.184,-9.403,0.0478,59.561,4
 741OE401HO7ZCaPhEqCZ7w,This Woman's Work - Remastered 2021,Now,Maxwell,2001-08-14,240306,62,0.381,0.662,0.29,1.48e-05,0.106,-10.682,0.0336,113.318,4
 16V37tEJapC7jTli8qHImc,My Song,My Song,H.E.R.,2018-01-02,350741,50,0.435,0.974,0.234,4.27e-06,0.131,-8.674,0.0369,102.304,4
 2LjkT4gu5wO4JdeEYl0fMY,Blue (feat. Blue Ivy),BEYONCÉ [Platinum Edition],Beyoncé,2014-11-24,266920,63,0.499,0.541,0.434,6.58e-05,0.119,-10.14,0.0608,90.322,4
@@ -2999,12 +2960,10 @@ track_id,name,album,artist,release_date,length,popularity,danceability,acousticn
 10QawadmmX0JbsBvJ8mMjQ,Sugar Walls,Lady Lady,Masego,2018-09-07,123000,47,0.634,0.612,0.526,0.0102,0.127,-10.281,0.0531,86.78,4
 0hbL0lbapKghBR2K2Xl1wo,zero (ft. Mereba),zero (ft. Mereba),cktrl,2021-09-29,189621,30,0.57,0.689,0.406,0.00932,0.129,-11.377,0.145,139.817,4
 6KOz0JVLHVsNrBOpgD3YC3,moonpond,inside weather,JVLY,2020-06-17,96000,49,0.45,0.882,0.329,0.0156,0.187,-9.53,0.0467,79.046,3
-0WPOxxoEVoglAvhqroDpQA,Where You Belong,"New Me, Same Us",Little Dragon,2020-03-27,207037,61,0.737,0.161,0.436,0.106,0.16,-9.146,0.0555,83.022,4
 6ARYP4KyGydosXyxtzlDdc,Waiting For You (feat. Naomi Sharon),Good People,Majid Jordan,2023-11-03,219998,59,0.744,0.59,0.572,0.01,0.105,-5.198,0.0387,81.97,4
 0YsiXEd69QrZK3AVfBAuV9,FLOOR,FLOOR,Flozigg,2022-10-25,125688,45,0.873,0.41,0.434,0.0307,0.0865,-7.742,0.065,108.897,4
 2R5GzHdM4xdA8HNLIF8lOY,West,Indigo,River Tiber,2016-06-24,152250,63,0.265,0.899,0.473,0.078,0.226,-8.379,0.0447,120.909,3
 4cOVTA2GfYTHw99AJDQpHo,The Worst In Me,BUBBA,KAYTRANADA,2019-12-13,226720,59,0.784,0.00936,0.645,0.000132,0.117,-7.325,0.402,109.978,4
-48WTGGIeSFD5ZMF51Rm4Y9,Another Lifetime,Saturn,Nao,2018-10-26,209466,57,0.452,0.415,0.317,1.5e-05,0.184,-9.403,0.0478,59.561,4
 2rGAASBrTG770g8wx5NJOV,Questions,When I Hear Your Name,Maeta,2023-06-09,193901,58,0.568,0.00453,0.668,1.07e-05,0.0554,-6.84,0.103,93.15,1
 3NWTRZ0A8xKlBP1qgNftql,Special Affair,Ego Death,The Internet,2015-06-26,176186,64,0.795,0.183,0.409,0.00108,0.112,-10.134,0.0859,120.095,4
 1gPeJMO7Az6ZtzHiaKUTWb,Opendoors,Honeycomb,Jitwam,2019-05-03,162102,73,0.725,0.565,0.521,0.275,0.178,-10.248,0.136,114.038,4
@@ -3050,7 +3009,6 @@ track_id,name,album,artist,release_date,length,popularity,danceability,acousticn
 1whAXVGN8AdfrnoXNIXfJf,Truth or Dare,TYLA,Tyla,2023-12-01,190392,81,0.61,0.183,0.599,0.000124,0.0854,-5.752,0.341,154.255,5
 3K9IrLs25jHtvWjAAFAfav,Gotta Move On (feat. Bryson Tiller),Gotta Move On (feat. Bryson Tiller),Diddy,2022-06-17,160776,59,0.699,0.55,0.679,0.0,0.0816,-4.528,0.0556,102.919,4
 7GUhiAHLoVy1V8ucQuZ3CB,Popular (with Playboi Carti & Madonna),The Highlights (Deluxe),The Weeknd,2024-02-09,215466,71,0.854,0.0604,0.668,8.39e-05,0.382,-6.243,0.2,99.018,4
-5hJFhO9dvhJoDvUZZ9iWSw,Adorn,Kaleidoscope Dream (Deluxe Version),Miguel,2012,193146,70,0.625,0.0543,0.576,4.07e-05,0.187,-5.693,0.175,179.063,4
 5HM5trJxTouv3eUVcbW8sh,Sensational (feat. Davido & Lojay),Sensational (feat. Davido & Lojay),Chris Brown,2023-10-20,231109,72,0.774,0.108,0.611,0.0,0.116,-7.077,0.126,100.011,4
 3baPniPXS0iEII8rDUJdYP,Monalisa,Monalisa,Sarz,2022-05-19,212975,77,0.828,0.106,0.726,0.00101,0.103,-6.389,0.0419,113.017,4
 5pAbCxt9e3f81lOmjIXwzd,Be Honest (feat. Burna Boy),Be Honest (feat. Burna Boy),Jorja Smith,2019-08-16,207030,73,0.757,0.311,0.737,0.0,0.113,-6.728,0.114,98.057,4
@@ -3192,8 +3150,6 @@ track_id,name,album,artist,release_date,length,popularity,danceability,acousticn
 4y3Rmu6XbLeUi95ym34PGq,Little Girl Blue,Messages,Hank Mobley,1976-08-31,523266,35,0.487,0.945,0.0532,0.305,0.0969,-19.568,0.0514,92.316,4
 3QjtOdXc69Kd3m7FOgZXkq,Easy Living,The Complete RCA Victor Recordings,Paul Desmond,1963,425933,35,0.373,0.984,0.0426,0.344,0.0982,-23.311,0.0564,77.196,4
 6W25U2EbDixQbLbqpjz0TT,Solitude,Way Out West (OJC Remaster),Sonny Rollins,1957,471173,46,0.485,0.784,0.0735,0.855,0.0951,-20.188,0.0709,75.939,4
-2ktg2oZDyFAX3iY1QNkXl5,Session 32,Session 32,Summer Walker,2018-04-05,98026,79,0.574,0.894,0.123,0.00111,0.118,-13.959,0.196,115.431,3
-48WTGGIeSFD5ZMF51Rm4Y9,Another Lifetime,Saturn,Nao,2018-10-26,209466,57,0.452,0.415,0.317,1.5e-05,0.184,-9.403,0.0478,59.561,4
 6UOruoEj8UAA9iEtjbjJra,Sweet Blue,Sweet Blue,Cleo Sol,2019-05-31,253527,62,0.596,0.733,0.313,0.0034,0.0653,-14.759,0.056,81.02,4
 1VAKnb1btGrQXcVZVSRkPe,Good & Plenty,Good & Plenty,Alex Isley,2020-07-17,204705,68,0.658,0.788,0.619,0.0667,0.0951,-7.316,0.0772,136.077,4
 0hbL0lbapKghBR2K2Xl1wo,zero (ft. Mereba),zero (ft. Mereba),cktrl,2021-09-29,189621,30,0.57,0.689,0.406,0.00932,0.129,-11.377,0.145,139.817,4
@@ -3243,9 +3199,7 @@ track_id,name,album,artist,release_date,length,popularity,danceability,acousticn
 4VtRHZ4tBDHaWltVAytlLY,go,go,Cat Burns,2020-07-31,215000,72,0.663,0.88,0.251,0.0,0.0932,-9.87,0.0435,90.272,4
 6Bq3AOLFVFa8T6s5faPTLE,Belongs To,"Mood Swings, Vol. 1",Jerome Thomas,2019-02-19,122255,49,0.569,0.837,0.475,0.0571,0.357,-13.378,0.0777,138.14,4
 4H8pWCScx463K7XJNwjdsn,I Don't,What Now,Brittany Howard,2024-02-09,202720,40,0.542,0.874,0.63,0.23,0.116,-9.304,0.0595,148.666,4
-3FImu2LpSuH6gDHBuFgIbS,DO 4 LOVE,Spotify Singles,Snoh Aalegra,2021-10-29,189462,70,0.367,0.913,0.142,0.00367,0.107,-12.717,0.0319,69.827,4
 7ENWxXOW7VsdcrI5AHgM0u,Simple Man,Simple Man,Otis McDonald,2024-02-09,222914,45,0.487,0.00317,0.879,0.0,0.147,-7.007,0.0732,150.082,4
-47s5hKfwGXliAAB8wKMiNo,When I'm in Your Arms,Rose in the Dark,Cleo Sol,2020-03-27,335310,70,0.596,0.476,0.462,0.0581,0.112,-10.605,0.0589,173.866,4
 1VAKnb1btGrQXcVZVSRkPe,Good & Plenty,Good & Plenty,Alex Isley,2020-07-17,204705,68,0.658,0.788,0.619,0.0667,0.0951,-7.316,0.0772,136.077,4
 2u2ji0HpSmNJkklMTDwg0i,Perfect Stranger (feat. Kenny Lattimore),Perfect Stranger (feat. Kenny Lattimore),Ledisi,2024-02-02,231580,47,0.612,0.281,0.614,6.15e-05,0.132,-7.414,0.0575,74.992,4
 6rVomZSCiNuuJmVlpgfZkt,Through The Night (feat. Free Nationals),Through The Night (feat. Free Nationals),Maeta,2023-05-19,258023,55,0.468,0.689,0.38,5.98e-05,0.114,-6.326,0.0309,129.897,3
@@ -3931,14 +3885,12 @@ track_id,name,album,artist,release_date,length,popularity,danceability,acousticn
 59nOXPmaKlBfGMDeOVGrIK,WAIT FOR U (feat. Drake & Tems),I NEVER LIKED YOU,Future,2022-04-29,189893,85,0.463,0.314,0.642,0.0,0.0686,-4.474,0.34,83.389,4
 4O89rUWrGgWYKaHJUOp314,Cream,CHASE,Aaron May,2019-02-28,113555,71,0.87,0.12,0.37,0.0,0.117,-6.143,0.393,169.927,4
 7rbECVPkY5UODxoOUVKZnA,I Wonder,Graduation,Kanye West,2007-09-11,243440,88,0.542,0.141,0.466,0.000445,0.125,-8.665,0.0831,191.385,4
-2SSyJ6hTS0JeHTg63wVDZ7,Next To You,A N N I V E R S A R Y,Bryson Tiller,2020-10-02,190144,72,0.639,0.0375,0.439,3.56e-06,0.0699,-8.425,0.0601,141.408,4
 2YIIDMcF9zWJ2xcFSA99lH,Charge It,We Go Again,ENNY,2023-04-13,185715,68,0.783,0.347,0.542,0.593,0.201,-6.793,0.114,127.047,4
 02oUEbDQXcVITlLQKMPN1F,Ghostin',Ghostin',Wesley Joseph,2020-07-08,197675,56,0.856,0.346,0.518,0.452,0.221,-10.217,0.192,117.018,4
 0JQ0F7iBZ3rIZaY9PTlBpT,Dearly Beloved (feat. Jamie Foxx),Folarin II,Wale,2021-10-21,109000,58,0.687,0.946,0.619,0.0,0.248,-5.829,0.0498,118.101,4
 7sBwAWyXfiIgrYQ8BaJESH,Keep The Family Close,Views,Drake,2016-05-06,328906,63,0.378,0.149,0.566,0.0,0.382,-7.685,0.0482,87.691,3
 64Dy3qJDCFug6CySbswdbO,Shine,The Light Pack,Joey Bada$$,2020-07-17,171946,60,0.447,0.0851,0.619,0.0,0.0965,-4.301,0.25,78.57,1
 388jD8ko9cvFM9cd9TYDrl,ROS,GO:OD AM,Mac Miller,2015-09-18,343213,68,0.535,0.601,0.448,0.0,0.376,-8.919,0.175,120.554,4
-0pJO1tc1GpnxFyQp6Zp82r,Gorilla,NO THANK YOU,Little Simz,2022-12-12,245819,67,0.716,0.269,0.813,0.0,0.104,-5.748,0.256,90.418,4
 0IVAlb0cFCH1cQ974iR1TU,Ms. Fat Booty,Black On Both Sides,Mos Def,1999-10-12,223546,72,0.782,0.148,0.589,0.0,0.164,-4.827,0.189,90.438,4
 7cLnbmx7ZUWAwyocrKz3wL,Let Go,CHASE,Aaron May,2019-02-28,176531,84,0.87,0.046,0.498,0.0,0.146,-8.339,0.0622,110.017,4
 1UGD3lW3tDmgZfAVDh6w7r,Devil In A New Dress,My Beautiful Dark Twisted Fantasy,Kanye West,2010-11-22,351946,83,0.435,0.0175,0.76,0.0,0.158,-4.935,0.0721,80.082,4
@@ -3968,11 +3920,9 @@ track_id,name,album,artist,release_date,length,popularity,danceability,acousticn
 5B0kgjHULYJhAQkK5XsMoC,WUSYANAME (feat. Youngboy Never Broke Again & Ty Dolla $ign),CALL ME IF YOU GET LOST,"Tyler, The Creator",2021-06-25,121572,78,0.493,0.269,0.653,0.0,0.511,-5.666,0.0466,142.347,4
 2P3SLxeQHPqh8qKB6gtJY2,Poetic Justice,"good kid, m.A.A.d city (Deluxe)",Kendrick Lamar,2012,300160,76,0.779,0.157,0.572,0.0,0.246,-9.985,0.378,135.956,4
 7L15RIYFpoiHKJQNHsYhWM,Peng Black Girls Remix - A COLORS SHOW,Peng Black Girls Remix - A COLORS SHOW,ENNY,2020-12-17,206075,58,0.672,0.0168,0.535,1.44e-06,0.0947,-9.735,0.268,137.86,4
-08XWh5c0BMyD1nKVxxl91z,Fountains (with Tems),Certified Lover Boy,Drake,2021-09-03,192417,74,0.843,0.181,0.485,0.0675,0.107,-8.735,0.195,100.053,4
 2CzUlaKN1mvb0szagSR3ux,Fuck The World (Summer in London),Fuck The World,Brent Faiyaz,2020-02-07,236703,72,0.679,0.873,0.281,0.00335,0.215,-15.506,0.184,74.996,4
 3RKLJPyyMZfwebsePAzqjL,"I'm Good Luv, Enjoy.",CHASE,Aaron May,2019-02-28,134547,80,0.891,0.0833,0.586,0.0,0.213,-4.665,0.121,130.012,4
 0xta6Gah3inmeHbj0e3F9a,Headshots (4r da Locals),The House Is Burning,Isaiah Rashad,2021-07-30,193208,69,0.894,0.0308,0.615,0.00921,0.309,-6.269,0.0826,120.0,4
-552lBxKLGjerBDS8VYHOJn,No Merci,NO THANK YOU,Little Simz,2022-12-12,317278,55,0.756,0.71,0.403,0.0117,0.106,-8.433,0.08,89.944,4
 3sNVsP50132BTNlImLx70i,Bound 2,Yeezus,Kanye West,2013-06-18,229146,87,0.367,0.145,0.665,0.0,0.113,-2.821,0.0465,148.913,4
 66w7lK0t98OPgvYjXp39IP,Excitement,Pegasus,Trippie Redd,2020-10-30,283285,74,0.443,0.0194,0.536,4.24e-05,0.1,-8.187,0.0378,121.967,4
 0YAQnYt2oB8OdoaeqnHyTI,Tribe (with J. Cole),Milky Way,Bas,2018-08-24,238053,68,0.755,0.241,0.594,0.0,0.107,-5.906,0.216,178.929,4
@@ -4227,7 +4177,6 @@ track_id,name,album,artist,release_date,length,popularity,danceability,acousticn
 1lH3KG2MVPqXp6QmSevMb2,Duero,Duero,Aron Finneas,2023-12-22,195600,56,0.373,0.994,0.024,0.919,0.111,-30.576,0.0458,93.125,4
 1MDVmD8jfZhFy084VF7hO4,yalla,yalla,May Laude,2024-01-07,194625,55,0.561,0.995,0.0096,0.964,0.127,-30.385,0.0467,82.344,4
 3gmQ3tklUt8IJixvO3jVAp,In a sentimental mood,In a sentimental mood,Alexander Descartes,2023-01-26,146500,56,0.417,0.993,0.0347,0.936,0.12,-24.276,0.0349,82.326,4
-08XWh5c0BMyD1nKVxxl91z,Fountains (with Tems),Certified Lover Boy,Drake,2021-09-03,192417,74,0.843,0.181,0.485,0.0675,0.107,-8.735,0.195,100.053,4
 3XLDQwrRn2gC73UA2b9Bnc,Satisfaction,Satisfaction,SiR,2022-05-05,130981,61,0.576,0.663,0.577,2.98e-06,0.109,-4.655,0.137,111.119,4
 4rCuwgRRKaIiHlHDc8Bga6,We Might Even Be Falling In Love (Interlude),JAGUAR,Victoria Monét,2020-08-07,51913,78,0.768,0.415,0.506,0.0376,0.133,-8.913,0.165,77.1,4
 6mDz3yFi4hJeL2mP4lmg51,"Collide - From ""Queen & Slim: The Soundtrack""",Back At Sixes And Sevens,Tiana Major9,2020-12-18,204453,54,0.497,0.257,0.568,0.0016,0.523,-8.104,0.0705,147.391,4
@@ -4763,7 +4712,6 @@ track_id,name,album,artist,release_date,length,popularity,danceability,acousticn
 7LVrrX8pkzI9fMF88nGabt,Đi Về Nhà,Đi Về Nhà,Đen,2020-12-20,200000,67,0.742,0.578,0.662,0.0,0.126,-4.651,0.0647,84.006,4
 34oFssnMdj7HNZRX7L98pT,Nostalgia,10 Day,Chance the Rapper,2012-04-03,203613,40,0.612,0.358,0.478,0.000191,0.143,-10.801,0.0728,146.018,4
 5OlOGuOTe547c1XlJ07MNE,Prayers,War in my Pen,MIKE,2018-12-21,185454,35,0.288,0.117,0.85,8.41e-05,0.105,-8.831,0.51,82.717,5
-7BUnSvQPU5m830Et7fLAZt,Rider,AZEB - EP,Mereba,2021-05-26,165186,59,0.588,0.793,0.448,0.567,0.0931,-11.497,0.0545,94.701,4
 0GGfGINoVYiSFXPOjg3RHj,Found (feat. Brent Faiyaz),Found (feat. Brent Faiyaz),Tems,2021-09-09,209454,73,0.821,0.625,0.412,1.64e-05,0.0985,-7.795,0.0341,109.977,4
 3XLDQwrRn2gC73UA2b9Bnc,Satisfaction,Satisfaction,SiR,2022-05-05,130981,61,0.576,0.663,0.577,2.98e-06,0.109,-4.655,0.137,111.119,4
 6pyM30WDpG70VTfwoQg4m2,everything,blue water road,Kehlani,2022-04-29,207551,64,0.388,0.851,0.448,0.0,0.302,-5.221,0.0341,142.342,5
@@ -4781,14 +4729,12 @@ track_id,name,album,artist,release_date,length,popularity,danceability,acousticn
 3yu5otkADG1ldufrPxABoo,Wetin,Wetin,Yarden,2022-11-17,78946,73,0.544,0.554,0.583,0.000369,0.0906,-8.548,0.175,182.074,4
 1tNK6PDCrJLEa2AQBCEfjP,More Than Enough,It Was Divine,Alina Baraz,2020-04-24,151462,59,0.648,0.26,0.531,0.000897,0.12,-5.886,0.0345,143.008,4
 6QkOMriITXf0oqpga33HnP,meet me in brooklyn,Remember Your North Star,Yaya Bey,2022-06-17,89616,67,0.538,0.0576,0.521,0.0,0.471,-7.061,0.0856,74.825,4
-2ktg2oZDyFAX3iY1QNkXl5,Session 32,Session 32,Summer Walker,2018-04-05,98026,79,0.574,0.894,0.123,0.00111,0.118,-13.959,0.196,115.431,3
 0wOtc2nY3NOohp4xSwOyTN,We Might Even Be Falling In Love (Duet) - Spotify Singles,We Might Even Be Falling In Love (Duet) - Spotify Singles,Victoria Monét,2023-02-14,90110,75,0.731,0.473,0.423,0.000413,0.129,-10.147,0.0784,76.964,4
 6ARYP4KyGydosXyxtzlDdc,Waiting For You (feat. Naomi Sharon),Good People,Majid Jordan,2023-11-03,219998,59,0.744,0.59,0.572,0.01,0.105,-5.198,0.0387,81.97,4
 7ceXCl3ndsTFrH60P1c0io,Trust Nobody,AT LEAST WE HAVE THIS,Ama Lou,2021-11-26,195506,47,0.672,0.605,0.472,0.0,0.0919,-9.501,0.244,78.347,4
 6UOruoEj8UAA9iEtjbjJra,Sweet Blue,Sweet Blue,Cleo Sol,2019-05-31,253527,62,0.596,0.733,0.313,0.0034,0.0653,-14.759,0.056,81.02,4
 1ciQU7ZQGHq129m3njp9en,dirty dancer,dirty dancer,Orion Sun,2022-02-08,169720,70,0.702,0.376,0.525,0.0667,0.119,-5.028,0.0313,113.856,4
 0VdGCLMuvGP8Q7ceTHmMyy,COMING THRU,COMING THRU,Jamilah Barry,2021-05-21,133500,57,0.538,0.523,0.646,1.69e-05,0.113,-4.995,0.323,160.222,4
-3GsmYNNiz9GCXgVgphLlyl,Belong to You (feat. 6LACK),About Time (Extended Vinyl Reissue),Sabrina Claudio,2021-05-14,185617,59,0.601,0.273,0.554,0.0145,0.184,-10.849,0.0982,151.971,4
 3W2nknW1nTuuxUSyFCUCS8,John Redcorn,Chasing Summer,SiR,2019-08-30,187893,69,0.734,0.226,0.435,0.00277,0.216,-6.126,0.0869,143.967,4
 0FTpFi1BlqoBVELlh7jK50,Le Départ,Lotus Glow,Adi Oasis,2023-03-03,59836,69,0.678,0.823,0.339,0.921,0.167,-11.187,0.0934,74.009,3
 2YIIDMcF9zWJ2xcFSA99lH,Charge It,We Go Again,ENNY,2023-04-13,185715,68,0.783,0.347,0.542,0.593,0.201,-6.793,0.114,127.047,4
@@ -4799,7 +4745,6 @@ track_id,name,album,artist,release_date,length,popularity,danceability,acousticn
 6K4Co1NQyOnoFEJMkZHkln,James Joint,ANTI (Deluxe),Rihanna,2016-01-28,72080,71,0.399,0.66,0.203,0.000163,0.27,-11.649,0.0298,134.202,4
 7m0tBD3JC20Czvrg4zzR4u,Butterfly,Rose in the Dark,Cleo Sol,2020-03-27,199600,53,0.598,0.866,0.26,0.0,0.168,-9.406,0.0762,81.107,4
 3ppVO2tyWRRznNmONvt7Se,Summers Over Interlude,Views,Drake,2016-05-06,106333,78,0.699,0.405,0.255,0.00242,0.0985,-8.647,0.0303,132.031,3
-48WTGGIeSFD5ZMF51Rm4Y9,Another Lifetime,Saturn,Nao,2018-10-26,209466,57,0.452,0.415,0.317,1.5e-05,0.184,-9.403,0.0478,59.561,4
 5nV3xjY5nlQwAgpuSeinNG,Someday,Someday,Elmiene,2023-10-19,161529,63,0.728,0.401,0.56,0.000145,0.352,-7.007,0.0387,132.929,4
 6HL0T1bwbyx7dWK3eLrXpz,Think About You - Notion Mix,Back At Sixes And Sevens,Tiana Major9,2020-12-18,195186,44,0.765,0.00709,0.6,4.13e-05,0.084,-6.56,0.143,86.733,4
 0qGQXQdUNwPYQadGuELgEI,Why Are There Boundaries,French Kiwi Juice,FKJ,2017-03-03,182445,64,0.488,0.686,0.228,0.00374,0.0835,-9.13,0.0429,80.982,3
@@ -4869,20 +4814,16 @@ track_id,name,album,artist,release_date,length,popularity,danceability,acousticn
 1iBWjQ9af9NnUd5xnQDB3k,Charm,Rave & Roses Ultra,Rema,2023-04-27,204750,75,0.768,0.581,0.663,0.0,0.0974,-6.901,0.0355,96.039,4
 1DA2ADZs6O28y2rmdmpekw,2 Sugar (feat. Ayra Starr),"More Love, Less Ego",Wizkid,2022-11-11,187906,68,0.914,0.0498,0.643,0.0,0.0618,-3.862,0.134,105.033,4
 3RaCGXCiiMufRPoexXxGkV,Slime You Out (feat. SZA),Slime You Out,Drake,2023-09-15,310490,78,0.483,0.508,0.408,0.0,0.259,-9.243,0.0502,88.88,3
-3nXrCAE44KlevAkQB2XWcN,Gonna Love Me,K.T.S.E.,Teyana Taylor,2018-06-23,166997,76,0.514,0.402,0.506,2.56e-05,0.191,-7.095,0.28,88.044,4
 13ks10TjWmDaVL4iO8R5dV,Push (feat. Omah Lay),Obsidian,Naomi Sharon,2023-10-20,162787,61,0.837,0.563,0.383,0.289,0.087,-10.527,0.164,118.015,4
-7vVs4XCsQyGn1Au3drvo9Z,Call Me Every Day (feat. Wizkid),Call Me Every Day (feat. Wizkid),Chris Brown,2022-06-17,146840,63,0.729,0.115,0.634,1.35e-05,0.0997,-7.194,0.175,171.862,4
 7eQpbVg3tjHmtdOlAHxaTr,CUFF IT - WETTER REMIX,CUFF IT,Beyoncé,2023-02-08,249406,66,0.66,0.434,0.688,0.0,0.489,-6.34,0.0564,118.05,4
 2IlT65thKQQw248mhk2PjQ,JACKIE BROWN,WASTELAND,Brent Faiyaz,2022-07-08,169013,82,0.726,0.65,0.353,0.002,0.224,-10.273,0.105,137.66,4
 736PP5LTtREkDgktNmX3Gu,Superpowers,NEVER ENOUGH,Daniel Caesar,2023-04-07,174512,83,0.501,0.614,0.445,0.0373,0.194,-9.117,0.0369,106.627,5
 0GGfGINoVYiSFXPOjg3RHj,Found (feat. Brent Faiyaz),Found (feat. Brent Faiyaz),Tems,2021-09-09,209454,73,0.821,0.625,0.412,1.64e-05,0.0985,-7.795,0.0341,109.977,4
-08XWh5c0BMyD1nKVxxl91z,Fountains (with Tems),Certified Lover Boy,Drake,2021-09-03,192417,74,0.843,0.181,0.485,0.0675,0.107,-8.735,0.195,100.053,4
 4VY32hdU4byJ6cpEBAXRul,Outside,Outside,Bryson Tiller,2022-09-08,188579,67,0.729,0.125,0.513,0.0,0.112,-7.507,0.0554,97.254,4
 6VFKuuqSbA1GpMEosUgTwQ,Nobody But You,Nobody But You,Sonder,2021-04-09,213214,74,0.637,0.742,0.299,0.0,0.359,-11.314,0.0366,83.872,4
 6EsOT4Yq4BavQSJ4sEe9dw,Slow Down (feat. Lucky Daye),Slow Down (feat. Lucky Daye),VanJess,2021-08-13,227673,51,0.681,0.21,0.576,3.27e-05,0.376,-6.483,0.0425,113.057,4
 1Sr7G1nLlnAFZ8AKT7PuGo,Hello,Hello,Aqyila,2023-03-31,195004,64,0.52,0.77,0.549,0.00012,0.102,-8.17,0.224,142.056,4
 08SB2OtZkaliju77WYEKxk,No Love (with SZA),Still Over It,Summer Walker,2021-11-05,231497,78,0.707,0.17,0.618,0.0,0.293,-5.825,0.19,133.876,4
-3FImu2LpSuH6gDHBuFgIbS,DO 4 LOVE,Spotify Singles,Snoh Aalegra,2021-10-29,189462,70,0.367,0.913,0.142,0.00367,0.107,-12.717,0.0319,69.827,4
 5JycxhApZmzbA4xSwvqh6k,All To Me,When It's All Said And Done... Take Time,Giveon,2021-03-12,127807,75,0.523,0.65,0.543,0.0,0.257,-8.39,0.156,116.161,3
 3KcDfeZ1UAMtun8TuvG1kT,Peak (Fed Up),Peak (Fed Up),RAAHiiM,2019-09-10,188242,63,0.522,0.346,0.263,0.0,0.111,-8.513,0.0909,99.648,3
 3K9IrLs25jHtvWjAAFAfav,Gotta Move On (feat. Bryson Tiller),Gotta Move On (feat. Bryson Tiller),Diddy,2022-06-17,160776,59,0.699,0.55,0.679,0.0,0.0816,-4.528,0.0556,102.919,4
@@ -4914,7 +4855,6 @@ track_id,name,album,artist,release_date,length,popularity,danceability,acousticn
 7g6FlLHxbVqMi1s7S8tDTp,Summer Too Hot,Summer Too Hot,Chris Brown,2023-06-23,188504,64,0.681,0.155,0.71,3.02e-05,0.367,-6.643,0.0574,89.957,4
 5YbPxJwPfrj7uswNwoF1pJ,Last Last,"Love, Damini",Burna Boy,2022-07-07,172342,79,0.795,0.131,0.565,0.0,0.0802,-4.457,0.0948,87.925,4
 2Hd7uGbl8PX0IxyX59VFOg,The Beach,TAKE TIME,Giveon,2020-03-27,205663,69,0.649,0.181,0.509,0.000655,0.932,-9.502,0.0659,99.813,4
-1CbxG199T0fzfUV5EO7aPV,Eternal Light,Free Nationals,Free Nationals,2019-12-13,193740,70,0.793,0.648,0.465,0.000132,0.0871,-8.134,0.271,141.85,4
 2pg2TiYo9Rb8KeB5JjP7jS,Sativa,Trip,Jhené Aiko,2017-09-22,276960,83,0.741,0.316,0.61,0.0,0.534,-7.34,0.0511,125.99,4
 6ARYP4KyGydosXyxtzlDdc,Waiting For You (feat. Naomi Sharon),Good People,Majid Jordan,2023-11-03,219998,59,0.744,0.59,0.572,0.01,0.105,-5.198,0.0387,81.97,4
 7qvlr9ncoswvOoaFv4CKSw,The Recipe,Chasing Summer,SiR,2019-08-30,178400,60,0.528,0.0556,0.493,2.63e-06,0.0912,-6.607,0.0854,129.555,4
@@ -4942,12 +4882,10 @@ track_id,name,album,artist,release_date,length,popularity,danceability,acousticn
 3XLDQwrRn2gC73UA2b9Bnc,Satisfaction,Satisfaction,SiR,2022-05-05,130981,61,0.576,0.663,0.577,2.98e-06,0.109,-4.655,0.137,111.119,4
 6tDTnxaq8fHXZ63uiseNRH,As You Are - A COLORS SHOW,As You Are - A COLORS SHOW,Bellah,2023-08-31,221493,52,0.628,0.343,0.484,8.62e-06,0.297,-8.336,0.0396,113.842,4
 4mwiRPRAUSSFD6lJ86m98B,Stay Down,Sonder Son,Brent Faiyaz,2017-10-13,207325,70,0.551,0.617,0.301,1.1e-05,0.136,-13.065,0.111,84.695,4
-7BUnSvQPU5m830Et7fLAZt,Rider,AZEB - EP,Mereba,2021-05-26,165186,59,0.588,0.793,0.448,0.567,0.0931,-11.497,0.0545,94.701,4
 6Ap0yGl178iQGuMoXUloVP,Silver Tongue Devil,Studying Abroad: Extended Stay,Masego,2020-11-13,195714,55,0.791,0.469,0.662,0.000222,0.206,-8.492,0.0735,101.996,4
 1V7Hrt7ek8rzl2tn29UgXi,Ambience,Bigger Dreams,Nia Sultana,2022-06-02,168038,50,0.574,0.135,0.541,0.0,0.0822,-8.473,0.351,79.869,4
 4svk9KGtIVSEoeG2VjIUSy,A Storm on a Summers Day,A Storm on a Summers Day,Full Crate,2018-06-07,178355,68,0.726,0.696,0.295,0.000356,0.172,-14.504,0.219,115.067,4
 28Ir6VUbomCsKRYXJDS8pW,Shame (with Elmiene),Shame,Dahi,2023-09-29,152610,54,0.484,0.794,0.511,0.00847,0.134,-5.619,0.227,144.652,4
-2xyx0o4xNOLLjBSbOOdcbA,Playing Games (with Bryson Tiller) - Extended Version,Over It,Summer Walker,2019-10-04,143226,81,0.726,0.603,0.408,0.0,0.225,-6.606,0.0614,115.918,4
 0SdxAcV6Ef4xu8CklaiQLW,peppermint,all will be well,lavender,2022-02-17,135524,53,0.49,0.852,0.507,4.74e-06,0.0991,-8.076,0.167,104.483,4
 7bKxc7UstlRxOtNBvLjGSs,It Gets Better (With Time),Hive Mind,The Internet,2018-07-20,326533,55,0.484,0.687,0.375,3.29e-05,0.105,-8.957,0.364,83.997,4
 1VAKnb1btGrQXcVZVSRkPe,Good & Plenty,Good & Plenty,Alex Isley,2020-07-17,204705,68,0.658,0.788,0.619,0.0667,0.0951,-7.316,0.0772,136.077,4
@@ -4959,7 +4897,6 @@ track_id,name,album,artist,release_date,length,popularity,danceability,acousticn
 2YIIDMcF9zWJ2xcFSA99lH,Charge It,We Go Again,ENNY,2023-04-13,185715,69,0.783,0.347,0.542,0.593,0.201,-6.793,0.114,127.047,4
 7iwn9FANtRltiafratcH07,Flight 99,Flight 99,Ta-ku,2019-11-15,167142,64,0.589,0.554,0.431,0.0317,0.0878,-10.096,0.0475,134.688,4
 4S3FRqrM3VyuajD7jFZcLm,Loved By You (feat. Jazmine Sullivan),The Transition of Mali,Mali Music,2017-06-02,258933,48,0.307,0.365,0.481,0.0,0.207,-8.442,0.128,68.894,3
-2SSyJ6hTS0JeHTg63wVDZ7,Next To You,A N N I V E R S A R Y,Bryson Tiller,2020-10-02,190144,72,0.639,0.0375,0.439,3.56e-06,0.0699,-8.425,0.0601,141.408,4
 6QqF0MqjQVotftZIuQUbvf,Clutch (feat. Kiana Ledé),Clutch (feat. Kiana Ledé),Col3trane,2020-05-15,206680,50,0.634,0.663,0.564,0.000239,0.111,-7.984,0.359,116.233,5
 6RQ0i7rApnnWSI8uEiGVVF,Why Don't You,Rose in the Dark,Cleo Sol,2020-03-27,228990,70,0.43,0.136,0.592,0.0905,0.112,-7.55,0.15,54.585,4
 5tkR9JkBj3Ueeo8W4k8IZD,Queen Tings,Lady Lady,Masego,2018-09-07,188053,64,0.818,0.598,0.461,0.000135,0.108,-6.475,0.292,88.006,4
@@ -5463,7 +5400,6 @@ track_id,name,album,artist,release_date,length,popularity,danceability,acousticn
 4dAudDd5aYKHSrVzMSR8HI,String Quartet No. 2 in A Minor: II. Andante cantabile (Arr. Colbert for String Ensemble),Price: String Quartet No. 2 in A Minor: II. Andante cantabile (Arr. Colbert for String Ensemble),Florence Beatrice Price,2023-07-14,426889,49,0.152,0.706,0.0283,0.563,0.162,-30.525,0.0468,87.008,4
 0nJzrxHup9vkQyc9Eg698s,"Abendlied, Op. 85 No. 12 (Arr. Grosvenor)",Schumann & Brahms,Benjamin Grosvenor,2023-03-17,207046,60,0.47,0.992,0.00188,0.867,0.115,-32.773,0.0494,67.573,3
 19ybiQdyHMa0bLnAQp0cqP,On the Nature of Daylight (Arr. Mackay),On the Nature of Daylight (Arr. Mackay),Jess Gillam,2020-09-11,381106,44,0.157,0.922,0.0633,0.962,0.0889,-21.545,0.0433,135.223,3
-3w2PO4US2zMxFDxEjWT9yB,Be Easy,Be Easy,Odeal,2023-05-26,132052,68,0.822,0.0874,0.488,0.0,0.154,-9.24,0.643,123.893,4
 5crkOzXbUZ5SOSkSat7g4T,Lou's Tune,Lou's Tune,DARGZ,2021-09-10,102634,71,0.527,7.61e-05,0.643,0.725,0.174,-8.072,0.0355,75.036,4
 5rdBZkZw3kkkZxCUym3E9j,Motions,Motions,Jaz Karis,2021-09-24,213781,39,0.374,0.459,0.397,0.235,0.108,-11.341,0.0844,156.638,5
 0qGQXQdUNwPYQadGuELgEI,Why Are There Boundaries,French Kiwi Juice,FKJ,2017-03-03,182445,64,0.488,0.686,0.228,0.00374,0.0835,-9.13,0.0429,80.982,3
@@ -5577,7 +5513,6 @@ track_id,name,album,artist,release_date,length,popularity,danceability,acousticn
 6RQ0i7rApnnWSI8uEiGVVF,Why Don't You,Rose in the Dark,Cleo Sol,2020-03-27,228990,70,0.43,0.136,0.592,0.0905,0.112,-7.55,0.15,54.585,4
 1JczBx5oXAnPBtmGeW3Aik,"Corte Madera, CA",Spaceships on the Blade,Larry June,2022-08-19,102775,60,0.59,0.245,0.735,0.0,0.274,-6.542,0.402,150.827,4
 0Lf2PlT8IPAaWc59a2fWU6,For James,The Celestial Suite,Pale Jay,2021-10-22,83046,69,0.253,0.22,0.674,0.734,0.0986,-6.929,0.0331,81.871,4
-552lBxKLGjerBDS8VYHOJn,No Merci,NO THANK YOU,Little Simz,2022-12-12,317278,55,0.756,0.71,0.403,0.0117,0.106,-8.433,0.08,89.944,4
 6Ap0yGl178iQGuMoXUloVP,Silver Tongue Devil,Studying Abroad: Extended Stay,Masego,2020-11-13,195714,55,0.791,0.469,0.662,0.000222,0.206,-8.492,0.0735,101.996,4
 5KXNgbRYbqwEFIFM0AMakg,Groceries,Homegrown,CARRTOONS,2022-04-20,143606,68,0.781,0.0127,0.768,0.00434,0.159,-5.64,0.0376,121.987,4
 0SdxAcV6Ef4xu8CklaiQLW,peppermint,all will be well,lavender,2022-02-17,135524,53,0.49,0.852,0.507,4.74e-06,0.0991,-8.076,0.167,104.483,4
@@ -5604,7 +5539,6 @@ track_id,name,album,artist,release_date,length,popularity,danceability,acousticn
 7iwn9FANtRltiafratcH07,Flight 99,Flight 99,Ta-ku,2019-11-15,167142,64,0.589,0.554,0.431,0.0317,0.0878,-10.096,0.0475,134.688,4
 564oa00vY05d1uYnTEAAmE,Herside Story,At What Cost,GoldLink,2017-03-24,183760,61,0.885,0.656,0.595,4.42e-06,0.105,-5.487,0.286,148.034,4
 2dCD8qq7yHZPZduA8FJazs,Come Close,Electric Circus,Common,2002-01-01,275066,51,0.721,0.104,0.469,0.000111,0.0724,-9.563,0.193,86.811,4
-1CbxG199T0fzfUV5EO7aPV,Eternal Light,Free Nationals,Free Nationals,2019-12-13,193740,70,0.793,0.648,0.465,0.000132,0.0871,-8.134,0.271,141.85,4
 1B53Y95tPd4ah4FExO0egE,What They Do,Illadelph Halflife,The Roots,1996-09-24,357200,62,0.885,0.341,0.414,0.000289,0.0891,-10.539,0.168,92.727,4
 7dbyaRWWFvB9UG2vcwTd3J,Champagne Shots,Local Mvp,Sainté,2021-01-06,144000,74,0.942,0.493,0.441,0.0,0.138,-11.448,0.469,135.028,4
 0J9uaeOd7GZi9MTybtqAD4,Self,Heaven,Cleo Sol,2023-09-15,199615,66,0.725,0.445,0.417,0.79,0.0834,-10.635,0.0976,151.947,4
@@ -6863,7 +6797,6 @@ track_id,name,album,artist,release_date,length,popularity,danceability,acousticn
 0cZ9HBGWLZJS7UHCgWXOTZ,Last One Left (feat. Missy Elliott & Lil Gray),Larger Than Life,Brent Faiyaz,2023-10-27,224598,67,0.714,0.694,0.428,2.52e-06,0.0958,-7.829,0.283,138.912,4
 6Crq3yX0pUdMaFAd3t60gH,Chrome Hearts,Lost In You,JON VINYL,2021-10-01,81584,54,0.646,0.864,0.191,0.0,0.114,-14.375,0.0434,95.139,4
 7xkHbITyunC0rn47Gs8hS4,November (feat. Stormzy),IRL,Mahalia,2023-07-14,214026,53,0.671,0.354,0.325,0.0,0.129,-8.672,0.0537,133.307,3
-trackId,name,album,artist,releaseDate,length,popularity,danceability,acousticness,energy,instrumentalness,liveness,loudness,speechiness,tempo,timeSignature
 4xPqjF1t6wGa2j6QEMPF95,Jealous (with Ella Mai),Grudges,Kiana Ledé,2023-06-16,225286,53,0.65,0.201,0.506,0.0,0.151,-5.293,0.0524,125.061,4
 02nZeTbm2dRHisH6qsUM5E,Waiting For (feat. Jamila Woods),aiMless,rum.gold,2020-04-24,200214,61,0.738,0.201,0.379,1.1e-05,0.0806,-11.644,0.084,122.042,4
 73tnLQtl7FqD0MS7VEM0xi,You,You,Elle Eliades,2021-02-12,231504,59,0.702,0.495,0.247,1.54e-05,0.111,-8.769,0.0303,113.015,3
@@ -6964,7 +6897,6 @@ trackId,name,album,artist,releaseDate,length,popularity,danceability,acousticnes
 0bIk5zx7YCMgwXa7G31fpp,Stomp,"NO SOUL, NO BLUES",Stan Mosley,2023-05-19,262764,34,0.623,0.284,0.809,2.43e-05,0.141,-6.387,0.0572,79.351,4
 4A11HoXH8oIUfWtJaTE34T,Don't Give Up On Me,Don't Give Up On Me,Solomon Burke,2002,225533,54,0.55,0.8,0.368,9.1e-05,0.118,-11.275,0.0698,136.983,3
 5t6lSg9siTTeRc5WHOdqkH,I'm So Proud,Inside Out,Tutu Jones,2009-11-16,288400,35,0.356,0.406,0.706,0.0,0.0944,-4.775,0.0333,182.297,3
-trackId,name,album,artist,releaseDate,length,popularity,danceability,acousticness,energy,instrumentalness,liveness,loudness,speechiness,tempo,timeSignature
 4Mab2bqF9kXQwvKcoJRPbz,Prism,Prism,Shingo Nakamura,2024-01-30,195250,52,0.599,0.163,0.783,0.831,0.11,-8.976,0.0392,117.966,3
 1kEdYirmW9IZ4R4QFaPvpE,Disappear,Disappear,THEMBA,2022-06-10,235859,56,0.631,0.00249,0.808,0.417,0.0745,-9.282,0.0385,120.012,4
 04BNQFaBlFF7WDeTb1V0AP,The Best Part,The Best Part,gardenstate,2021-07-14,250000,68,0.688,0.0203,0.654,0.251,0.117,-8.521,0.0493,123.011,4
