@@ -61,15 +61,14 @@ python ./app.py
 If you want to create your own dataset from stratch you run this code which I have commented out of `app.py` :
 ```python
 #THIS WILL CREATE A DATASET OF OVER 7000+ SONGS, DO NOT RUN THIS IF YOU ARE USING THIS PROVIDED DATASET: reccomendations_library.csv
-    # # Process to create the library of tracks - run this once then comment it out. 
-    # keywords = {'contemporary', 'r&b', 'lofi', 'soul', 'jazz', 'neo soul', 'blues', 'chillwave', 'lo-fi', 'chill', 'soul'}
-    # playlistIds = initialiseDataset.FindSoulfulPlaylists(sp, keywords)
-    # allTrackIds = initialiseDataset.GetTracksFromPlaylist(sp, playlistIds)
-    # with open('track_ids.txt', 'w') as file:
-    #     for Id in allTrackIds:
-    #         file.write(Id + '\n')
-    # getFeatures.CreateLibrary(sp, 'track_ids.txt', 'track_processing_progress.txt')
-
+# Process to create the library of tracks - run this once then comment it out. 
+keywords = {'contemporary', 'r&b', 'lofi', 'soul', 'jazz', 'neo soul', 'blues', 'chillwave', 'lo-fi', 'chill', 'soul'}
+playlistIds = initialiseDataset.FindSoulfulPlaylists(sp, keywords)
+allTrackIds = initialiseDataset.GetTracksFromPlaylist(sp, playlistIds)
+with open('track_ids.txt', 'w') as file:
+    for Id in allTrackIds:
+    file.write(Id + '\n')
+getFeatures.CreateLibrary(sp, 'track_ids.txt', 'track_processing_progress.txt')
 ```
 ### WARNING:
 You may encounter multiple rate limit errors from the Spotify Client. If this happens wait around 24 hours before running that section of `app.py` again.
