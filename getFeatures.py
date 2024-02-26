@@ -1,23 +1,8 @@
 import spotipy
 from spotipy.oauth2 import SpotifyOAuth
-import secrets
+import credentials
 import pandas as pd
 import time
-
-#OPTIONAL: Only run this script if you are creating your own 7000+ song dataset from scratch
-# Function to set up the Spotify client
-def SetUpSpotifyClient():
-    scope = 'user-top-read playlist-modify-private playlist-modify-public user-library-read user-top-read'
-    token = SpotifyOAuth(client_id=secrets.clientId,
-                         client_secret=secrets.clientSecret,
-                         redirect_uri=secrets.redirectUri,
-                         scope=scope)
-    if token:
-        sp = spotipy.Spotify(auth_manager=token)
-        return sp
-    else:
-        print(f"Can't get token for {credentials.username}")
-        return None
 
 # Function to get track features
 def GetTrackFeatures(sp, trackId):
@@ -91,14 +76,3 @@ def CreateLibrary(sp, filePath, progressFile, batchSize=100):
         dfTracks = pd.DataFrame(allTracks)
         dfTracks.to_csv('recommendations_library.csv', mode='a', index=False, header=False)
         SaveProgress(currentLineNumber, progressFile)
-
-# Main function
-def Main():
-    sp = SetUpSpotifyClient()
-    if sp:
-        filePath = 'track_ids_missed.txt'
-        progressFile = 'track_processing_progress.txt'
-        CreateLibrary(sp, filePath, progressFile)
-
-if __name__ == "__main__":
-    Main()
