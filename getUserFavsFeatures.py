@@ -1,16 +1,4 @@
-import spotipy
-from spotipy.oauth2 import SpotifyOAuth
-import secrets
 import pandas as pd
-
-# Function to set up the Spotify client
-def SetUpSpotifyClient():
-    scope = 'user-top-read playlist-modify-private playlist-modify-public user-library-read user-top-read'
-    sp = spotipy.Spotify(auth_manager=SpotifyOAuth(client_id=secrets.clientId,
-                                                   client_secret=secrets.clientSecret,
-                                                   redirect_uri=secrets.redirectUri,
-                                                   scope=scope))
-    return sp
 
 # Function to get track features
 def GetTrackFeatures(sp, trackId):
@@ -65,12 +53,5 @@ def CreateLibrary(sp, filePath, batchSize=100):
         dfTracks = pd.DataFrame(allTracks)
         dfTracks.to_csv('userfavs.csv', mode='w' if isFirstBatch else 'a', index=False, header=isFirstBatch)
         print("Final batch processed. Saving remaining tracks to CSV...")
-
-# Main function to orchestrate the flow
-def Main():
-    sp = SetUpSpotifyClient()
-    filePath = 'user_favs.txt'
-    CreateLibrary(sp, filePath)
-
 if __name__ == "__main__":
     Main()
