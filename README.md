@@ -75,3 +75,6 @@ You may encounter multiple rate limit errors from the Spotify Client. If this ha
 `getFeatures.py` keeps track of where it last stopped before the error so it will pick up from where it left off. 
 `getFeatures.py` has also implemented a wait time of around 30 seconds between processing each batch of track IDs.
 track IDs are processed in batches of 100 to help with the ratelimit issue.  
+
+### Sample Output
+![Alt Text](./ImagesJupyterNotebook/SpotifyResults.PNG)
