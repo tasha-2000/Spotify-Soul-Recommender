@@ -58,7 +58,7 @@ Run the `app.py` script using this command in your terminal.
 ```bash
 python ./app.py
 ```
-If you want to create your own dataset from stratch you run this code which I have commented out of `app.py` :
+If you want to create your own dataset from stratch undo the commenting out in the main function of `app.py`:
 ```python
 #THIS WILL CREATE A DATASET OF OVER 7000+ SONGS, DO NOT RUN THIS IF YOU ARE USING THIS PROVIDED DATASET: reccomendations_library.csv
 # Process to create the library of tracks - run this once then comment it out. 
