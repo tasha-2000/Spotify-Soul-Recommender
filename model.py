@@ -13,44 +13,47 @@ def NormaliseData(df):
     df.to_csv('songs_normalized.csv', index=False)
     return df.head()
 
-# Function to filter Reccomended Library so it does not include any of the song in User Favs
+# Function to filter Recommended Library so it does not include any of the songs in User Favs
 def FilterRecommendedLibrary():
     userFavsIds = set()
     with open('userfavs.csv', 'r', encoding='utf-8') as userFavs:
+        header = next(userFavs)  # Skip the header row
         for line in userFavs:
             trackId = line.split(',')[0].rstrip()
             userFavsIds.add(trackId)
     
     filteredLibrary = []
+    isFirstLine = True  # Flag to check if we're on the first line
     with open('recommendations_library.csv', 'r', encoding='utf-8') as recommendedLibrary:
         for line in recommendedLibrary:
+            if isFirstLine:
+                filteredLibrary.append(line)  # Add the header to the filtered list
+                isFirstLine = False
+                continue
             trackId = line.split(',')[0].rstrip()
             if trackId not in userFavsIds:
                 filteredLibrary.append(line)
     
-    with open('recommended_library.csv', 'w', encoding='utf-8') as recommendedLibrary:
+    with open('recommendations_library.csv', 'w', encoding='utf-8') as recommendedLibrary:
         for line in filteredLibrary:
             recommendedLibrary.write(line)
 
-# Function to add headers to CSV files
-def AddHeadersToCsv(filePaths):
-    header = "track_id,name,album,artist,release_date,length,popularity,danceability,acousticness,energy,instrumentalness,liveness,loudness,speechiness,tempo,time_signature,favorite\n"
-    
-    for filePath in filePaths:
-        with open(filePath, 'r', encoding='utf-8') as file:
-            content = file.read()
-        with open(filePath, 'w', encoding='utf-8') as file:
-            file.write(header + content)
 
-# Function to add favorite field to CSV
 def AddFavoriteField():
+    # Add favorite field to user favorites CSV
     with open('userfavs.csv', 'r', encoding='utf-8') as infile, open('userfavs_updated.csv', 'w', encoding='utf-8') as outfile:
+        header = next(infile)  # Read the first line as header
+        outfile.write(header.strip() + ',favorite\n')  # Add 'favorite' to header
         for line in infile:
-            outfile.write(line.rstrip() + ',1\n')
+            outfile.write(line.strip() + ',1\n')  # Append ',1' for favorite
     
-    with open('final_lib.csv', 'r', encoding='utf-8') as infile, open('library_updated.csv', 'w', encoding='utf-8') as outfile:
+    # Add favorite field to recommendations library CSV
+    with open('recommendations_library.csv', 'r', encoding='utf-8') as infile, open('library_updated.csv', 'w', encoding='utf-8') as outfile:
+        header = next(infile)  # Read the first line as header
+        outfile.write(header.strip() + ',favorite\n')  # Add 'favorite' to header
         for line in infile:
-            outfile.write(line.rstrip() + ',0\n')
+            outfile.write(line.strip() + ',0\n')  # Append ',0' for not favorite
+
 
 # Function to prepare datasets for training
 def PrepareDatasets(userfavsPath, libraryPath, combinedCsvPath='combined_data.csv'):
@@ -59,7 +62,7 @@ def PrepareDatasets(userfavsPath, libraryPath, combinedCsvPath='combined_data.cs
     combinedDf = pd.concat([userfavsDf, libraryDf], ignore_index=True)
     combinedDf.to_csv(combinedCsvPath, index=False)
     
-    numericFields = ['length', 'popularity', 'danceability', 'acousticness', 'energy', 'instrumentalness', 'liveness', 'loudness', 'speechiness', 'tempo', 'time_signature', 'favorite']
+    numericFields = ['length', 'popularity', 'danceability', 'acousticness', 'energy', 'instrumentalness', 'liveness', 'loudness', 'speechiness', 'tempo', 'timeSignature', 'favorite']
     combinedNumericDf = combinedDf[numericFields]
     trainDf, testDf = train_test_split(combinedNumericDf, test_size=0.2, random_state=42)
     
@@ -72,7 +75,9 @@ def PrepareDatasets(userfavsPath, libraryPath, combinedCsvPath='combined_data.cs
     resampledTrainDf['favorite'] = y_trainResampled
     testDf.to_csv('test_data.csv', index=False)
     resampledTrainDf.to_csv('training_data.csv')
-    
+    DeleteFirstFieldAndSave('training_data.csv')
+    RemoveFav('test_data.csv')
+
     return resampledTrainDf
 
 # Function to delete the first field from CSV and save
@@ -81,6 +86,15 @@ def DeleteFirstFieldAndSave(csvPath, newCsvPath=None):
     df.drop(columns=df.columns[0], inplace=True)
     df.to_csv(newCsvPath if newCsvPath else csvPath, index=False)
 
+#Function to remove favorite column
+def RemoveFav(csvPath):
+    df = pd.read_csv(csvPath)
+
+    # Check if 'favorite' column exists and remove it
+    if 'favorite' in df.columns:
+        df.drop(columns=['favorite'], inplace=True)
+
+    df.to_csv(csvPath,index=False)
 
 # Function to train a decision tree classifier
 def TrainDecisionTreeClassifier(csvPath):
@@ -120,39 +134,13 @@ def Recommend(testDataDf, clfModel):
 def FindMatch(recsCsvPath, combinedRawCsvPath):
     recsDf = pd.read_csv(recsCsvPath)
     combinedRawDf = pd.read_csv(combinedRawCsvPath)
-    featuresToCompare = ['length', 'popularity', 'danceability', 'acousticness', 'energy', 'instrumentalness', 'liveness', 'loudness', 'speechiness', 'tempo', 'time_signature']
+    featuresToCompare = ['length', 'popularity', 'danceability']
     matchingTrackIds = []
     
     for index, recRow in recsDf.iterrows():
         mask = (combinedRawDf[featuresToCompare] == recRow[featuresToCompare]).all(axis=1)
         matchingRows = combinedRawDf[mask]
         if not matchingRows.empty:
-            matchingTrackIds.extend(matchingRows['track_id'].tolist())
+            matchingTrackIds.extend(matchingRows['trackId'].tolist())
     
     return matchingTrackIds
-
-def Main():
-    # Step 1: remove songs in the reccomended library that are also in the user favs dataset
-    FilterRecommendedLibrary()
-
-    #Step2: Add favorite field to both files
-    AddFavoriteField()
-
-    # Step 3: prepare the datasets by balancing the two datasets using SMOTE and dropping nonnumerical fields
-    PrepareDatasets('userfavs_updated.csv', 'library_updated.csv')
-
-    #Step 4: train DT Model
-    clfModel = TrainDecisionTreeClassifier('training_data.csv')
-
-    #Step 5: use DT model to get recommendations
-    testDataDf = pd.read_csv('test_data.csv')
-    X_test = testDataDf.drop(columns=['favorite'])
-    recommendations = Recommend(X_test, clfModel)
-    print(recommendations)
-
-    #Step 6: Find the Track IDs associated with the reccomendedations
-    trackIDs = FindMatch('recs.csv', 'combined_data.csv')
-    print(trackIDs)
-
-if __name__ == "__main__":
-    Main()
