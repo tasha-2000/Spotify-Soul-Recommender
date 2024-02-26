@@ -41,10 +41,10 @@ pip install imblearn
 
 1. Visit the [Spotify Developer Dashboard](https://developer.spotify.com/dashboard/).
 2. Create a new app to get your `clientId` and `clientSecret`.
-3. Edit the `secrets.py` file (you will create this in the next step) with your Spotify username, `clientId`, `clientSecret`, and `redirectUri`.
+3. Edit the `credentials.py` file (you will create this in the next step) with your Spotify username, `clientId`, `clientSecret`, and `redirectUri`.
 
 ```python
-# secrets.py
+# credentials.py
 clientId = 'your_spotify_client_id'
 clientSecret = 'your_spotify_client_secret'
 redirectUri = 'your_app_redirect_uri'
@@ -52,18 +52,27 @@ username = 'your_spotify_username'
 ```
 
 ### 4. Run the Scripts
-This assumes that you'll be using the `reccommended_library.csv` provided for this project. 
+This assumes that you'll be using the `reccommended_library.csv` provided for this project instead of creating a new dataset of over 7000+ songs 
 
-Run the scripts in this order:
+Run the `app.py` script using this command in your terminal.
 ```bash
-python ./initialiseDataset.py
-python ./getUserFavsFeatures.py
-python ./model.py
 python ./app.py
 ```
-If you want to create your own dataset from stratch you should undo the commenting out in the main function of the `intitialiseDataSet.py` and then run getFeatures.py after running `getUserFavsFeatures.py`
+If you want to create your own dataset from stratch you run this code which I have commented out of `app.py` :
+```python
+#THIS WILL CREATE A DATASET OF OVER 7000+ SONGS, DO NOT RUN THIS IF YOU ARE USING THIS PROVIDED DATASET: reccomendations_library.csv
+    # # Process to create the library of tracks - run this once then comment it out. 
+    # keywords = {'contemporary', 'r&b', 'lofi', 'soul', 'jazz', 'neo soul', 'blues', 'chillwave', 'lo-fi', 'chill', 'soul'}
+    # playlistIds = initialiseDataset.FindSoulfulPlaylists(sp, keywords)
+    # allTrackIds = initialiseDataset.GetTracksFromPlaylist(sp, playlistIds)
+    # with open('track_ids.txt', 'w') as file:
+    #     for Id in allTrackIds:
+    #         file.write(Id + '\n')
+    # getFeatures.CreateLibrary(sp, 'track_ids.txt', 'track_processing_progress.txt')
+
+```
 ### WARNING:
-You may encounter multiple rate limit errors from the Spotify Client. If this happens wait around 24 hours before running `getFeatures.py` again.
+You may encounter multiple rate limit errors from the Spotify Client. If this happens wait around 24 hours before running that section of `app.py` again.
 `getFeatures.py` keeps track of where it last stopped before the error so it will pick up from where it left off. 
 `getFeatures.py` has also implemented a wait time of around 30 seconds between processing each batch of track IDs.
-track IDs are processed in batches of 100.  
+track IDs are processed in batches of 100 to help with the ratelimit issue.  
