@@ -57,7 +57,7 @@ This assumes that you'll be using the `reccommended_library.csv` provided for th
 
 Run the `app.py` script using this command in your terminal.
 ```bash
-python ./app.py
+poetry run python ./app.py
 ```
 If you want to create your own dataset from stratch undo the commenting out in the main function of `app.py`:
 ```python
