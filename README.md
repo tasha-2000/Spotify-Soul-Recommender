@@ -11,11 +11,9 @@ The features of these songs will help the model identify what kind of soulful mu
 
 ## Requirements
 - Python 3.8+
-- Spotipy
-- Pandas
-- Scikit-learn (for the machine learning model)
-- Your Spotify API credentials
-
+- Poetry
+- Your Spotify Credentials
+  
 ## Setup
 Please read the whole setup section before you clone the project to avoid errors
 
