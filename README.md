@@ -28,13 +28,14 @@ cd spotify-soul-recommender
 
 ### 2. Install Dependencies
 
-Make sure you have Python 3.8 or higher installed. Then run each install command one by one:
+Make sure you have Python 3.8 or higher installed. Install poetry if you don't already have it. 
 
 ```bash
-pip install spotipy
-pip install pandas
-pip install scikit-learn
-pip install imblearn
+pip install poetry
+```
+Install dependencies using poetry
+```bash
+poetry install --no-root
 ```
 
 ### 3. Configure Spotify API Credentials
