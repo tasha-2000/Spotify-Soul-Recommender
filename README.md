@@ -1,12 +1,12 @@
 # Spotify Soul Recommender
 
-This machine learning project creates a personalized soulful playlist based on the soulful songs you already have in your favorites. Assuming you're into that kind of vibe :)
+This machine learning project creates a personalised soulful playlist based on the soulful songs you already have in your favourites. Assuming you're into that kind of vibe :)
 
 ## How It Works
 
 This works by filtering your Top 50 Tracks by genre, specifically looking for songs that fit these genres: 'contemporary', 'r&b', 'lofi', 'soul', 'jazz', 'neo', 'blue', 'chillwave', 'lo-fi', 'chill', 'soul'.
 
-The features of these songs will help the model identify what kind of soulful music you enjoy. Once the model is trained and ready to be used. It will sort through a list of over 2000 soulful songs and reccommend 10 songs to add to your new Spotify Soul playlist. 
+The features of these songs will help the model identify what kind of soulful music you enjoy once the model is trained and ready to be used. It will sort through a list of over 2000 soulful songs and recommend 10 songs to add to your new Spotify Soul playlist. 
 
 
 ## Requirements
@@ -26,7 +26,7 @@ cd spotify-soul-recommender
 
 ### 2. Install Dependencies
 
-Make sure you have Python 3.8 or higher installed. Install poetry if you don't already have it. 
+Make sure you have Python 3.8 or higher installed. Install Poetry if you don't already have it. 
 
 ```bash
 pip install poetry
@@ -60,7 +60,7 @@ poetry run python ./app.py
 If you want to create your own dataset from stratch undo the commenting out in the main function of `app.py`:
 ```python
 #THIS WILL CREATE A DATASET OF OVER 7000+ SONGS, DO NOT RUN THIS IF YOU ARE USING THIS PROVIDED DATASET: reccomendations_library.csv
-# Process to create the library of tracks - run this once then comment it out. 
+# Process to create the library of tracks - run this once, then comment it out. 
 keywords = {'contemporary', 'r&b', 'lofi', 'soul', 'jazz', 'neo soul', 'blues', 'chillwave', 'lo-fi', 'chill', 'soul'}
 playlistIds = initialiseDataset.FindSoulfulPlaylists(sp, keywords)
 allTrackIds = initialiseDataset.GetTracksFromPlaylist(sp, playlistIds)
@@ -70,10 +70,10 @@ with open('track_ids.txt', 'w') as file:
 getFeatures.CreateLibrary(sp, 'track_ids.txt', 'track_processing_progress.txt')
 ```
 ### WARNING:
-You may encounter multiple rate limit errors from the Spotify Client. If this happens wait around 24 hours before running that section of `app.py` again.
-`getFeatures.py` keeps track of where it last stopped before the error so it will pick up from where it left off. 
+You may encounter multiple rate limit errors from the Spotify Client. If this happens, wait around 24 hours before running that section of `app.py` again.
+`getFeatures.py` keeps track of where it last stopped before the error, so it will pick up from where it left off. 
 `getFeatures.py` has also implemented a wait time of around 30 seconds between processing each batch of track IDs.
-track IDs are processed in batches of 100 to help with the ratelimit issue.  
+Track IDs are processed in batches of 100 to help with the rate limit issue.  
 
 ### Sample Output
 ![Alt Text](./ImagesJupyterNotebook/SpotifyResults.PNG)
